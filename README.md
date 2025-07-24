@@ -60,6 +60,3 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 ---
 
-## 🎬 GIF sugerido para el inicio
-
-![Coding GIF](https://media.giphy.com/media/L05HgB2h6qICDs5Sms/giphy.gif)
