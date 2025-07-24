@@ -199,8 +199,10 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
     <img src="https://img.shields.io/badge/Corrección%20del%20Frontend%20🧪-purple?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Corrección Frontend">
   </a>
   <br><br>
-  <a href="https://github.com/JulioArturoRodriguez/MerloBonaDev" target="_blank">
-    <img src="https://img.shields.io/badge/Portafolio%20de%20Tecnologías%20📚-green?style=for-the-badge&logo=code&logoColor=white" alt="Portafolio Tecnológico">
+
+  <p align="center">
+  <a href="https://merlobonadev-julioarturorodriguezs-projects.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Página%20desplegada%20en%20Vercel%20🌐-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio desplegado en Vercel">
   </a>
 </p>
 
