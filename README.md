@@ -76,16 +76,16 @@ Cuento con formación respaldada por programas nacionales y centros de formació
 
 <ul>
   <li>
-    <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/codoacodo_2.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
+    <img src="images/codoacodo_2.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
   </li>
   <li>
-    <img src="https://pbs.twimg.com/profile_images/1720471061888626688/xyFMVDjl_400x400.jpg" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
+    <img src="images/talentotech.png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
   </li>
   <li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/UTN_logo.svg/512px-UTN_logo.svg.png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
+    <img src="images/utn_logo.png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
   </li>
   <li>
-    <img src="https://argentinaprograma.inti.gob.ar/static/media/logo_2.0.fdbd7e5e.png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
+    <img src="images/argentina_programa.png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
   </li>
 </ul>
 
@@ -93,13 +93,13 @@ Cuento con formación respaldada por programas nacionales y centros de formació
 
 <ul>
   <li>
-    <img src="https://www.argentina.gob.ar/sites/default/files/logo-inet-azul.png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
+    <img src="images/inet.png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
   </li>
   <li>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_UOMRA.png" alt="UOM" width="25" style="vertical-align: middle;"/> <strong>UOM</strong> – Unión Obrera Metalúrgica
+    <img src="images/uom.png" alt="UOM" width="25" style="vertical-align: middle;"/> <strong>UOM</strong> – Unión Obrera Metalúrgica
   </li>
   <li>
-    <img src="https://seduca.org.ar/wp-content/uploads/2019/12/LogoSeducaHorizontal-1-300x107.png" alt="SEDUCA" width="25" style="vertical-align: middle;"/> <strong>SEDUCA</strong> – Sindicato de Educadores
+    <img src="images/seduca.png" alt="SEDUCA" width="25" style="vertical-align: middle;"/> <strong>SEDUCA</strong> – Sindicato de Educadores
   </li>
 </ul>
 
