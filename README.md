@@ -159,7 +159,7 @@ Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Softwa
 Me inclino más por el desarrollo **web** y **Movil**, donde puedo aplicar mis conocimientos técnicos y creativos.  
 Sin embargo, me gusta explorar distintas áreas del mundo IT. Actualmente, tengo interés en **aprender sobre ciberseguridad** para mejorar mis buenas prácticas de desarrollo, fortalecer mi código y tener en cuenta aspectos críticos de protección de datos y sistemas.
 
-Estoy cursando una **tecnicatura en desarrollo de software**, que planeo finalizar entre **2027 y 2028 Y LUEGO CONTINUAR CON LA LICENCIATURA EN GESTION TECNOLOGICA**.  
+Estoy cursando una **tecnicatura en desarrollo de software**, que planeo finalizar entre **2027 y 2028 Y LUEGO CONTINUAR CON UNA LICENCIATURA EN GESTION TECNOLOGICA**.  
 Mi formación comenzó como un hobby, pero se convirtió en una pasión con visión a largo plazo. Me interesa seguir desarrollando habilidades tanto técnicas como funcionales.
 
 ---
