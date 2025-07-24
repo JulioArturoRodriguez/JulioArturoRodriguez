@@ -69,37 +69,43 @@ Mi perfil es multidisciplinario, con conocimientos en diversas áreas de IT: des
 
 Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:
 
-<div align="center">
-  
-  <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/codoacodo_2.png" alt="Codo a Codo" height="50" style="margin-right: 20px;"/>
-  <img src="https://pbs.twimg.com/profile_images/1720471061888626688/xyFMVDjl_400x400.jpg" alt="Talento Tech" height="50" style="margin-right: 20px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/UTN_logo.svg/512px-UTN_logo.svg.png" alt="UTN" height="50" style="margin-right: 20px;"/>
-  <img src="https://argentinaprograma.inti.gob.ar/static/media/logo_2.0.fdbd7e5e.png" alt="Argentina Programa" height="50" style="margin-right: 20px;"/>
-</div>
+<h2>🎓 Formación y certificaciones</h2>
+<p>Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:</p>
 
-### 📘 Diplomaturas cursadas:
-- **Codo a Codo 4.0**
-- **Talento Tech**
-- **UTN - Universidad Tecnológica Nacional**
-- **Argentina Programa 1 y 2**
+<h3>📘 Diplomaturas cursadas:</h3>
 
----
+<ul>
+  <li>
+    <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/codoacodo_2.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
+  </li>
+  <li>
+    <img src="https://pbs.twimg.com/profile_images/1720471061888626688/xyFMVDjl_400x400.jpg" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
+  </li>
+  <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/UTN_logo.svg/512px-UTN_logo.svg.png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
+  </li>
+  <li>
+    <img src="https://argentinaprograma.inti.gob.ar/static/media/logo_2.0.fdbd7e5e.png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
+  </li>
+</ul>
 
-<div align="center">
-  <img src="https://www.argentina.gob.ar/sites/default/files/logo-inet-azul.png" alt="INET" height="50" style="margin-right: 20px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_UOMRA.png" alt="UOM" height="50" style="margin-right: 20px;"/>
-  <img src="https://seduca.org.ar/wp-content/uploads/2019/12/LogoSeducaHorizontal-1-300x107.png" alt="SEDUCA" height="50" />
-</div>
+<h3>🧪 Certificaciones prácticas avaladas por:</h3>
 
-### 🧪 Certificaciones prácticas avaladas por:
-- **INET** – Instituto Nacional de Educación Tecnológica
-- **UOM** – Unión Obrera Metalúrgica
-- **SEDUCA** – Sindicato de Educadores
+<ul>
+  <li>
+    <img src="https://www.argentina.gob.ar/sites/default/files/logo-inet-azul.png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
+  </li>
+  <li>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_UOMRA.png" alt="UOM" width="25" style="vertical-align: middle;"/> <strong>UOM</strong> – Unión Obrera Metalúrgica
+  </li>
+  <li>
+    <img src="https://seduca.org.ar/wp-content/uploads/2019/12/LogoSeducaHorizontal-1-300x107.png" alt="SEDUCA" width="25" style="vertical-align: middle;"/> <strong>SEDUCA</strong> – Sindicato de Educadores
+  </li>
+</ul>
 
----
-
-🎯 **Actualmente:**  
-Curso el segundo cuatrimestre de una diplomatura en **Desarrollo de Software con orientación práctica**, enfocada en herramientas reales de la industria.
+<p>🎯 <strong>Actualmente:</strong><br>
+Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Software con orientación práctica</strong>, enfocada en herramientas reales de la industria.
+</p>
 
 
 ---
