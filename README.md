@@ -90,10 +90,26 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 ---
 
-## 📫 Cómo contactarme
+<h3 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">
+  Conéctate conmigo 🤝
+</h3>
 
- 
-- 🔗 LinkedIn: [julio-arturo-rodríguez](https://www.linkedin.com/in/julio-arturo-rodr%C3%ADguez-?utm_source=share&utm_campaign=share_via&content=profile&utm_medium=android_app)  
+<p align="center">
+  <a href="https://www.linkedin.com/in/julio-arturo-rodr%C3%ADguez-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/JulioArturoRodriguez" target="_blank">
+    <img src="https://img.icons8.com/doodle/40/000000/github--v1.png" alt="GitHub"/>
+  </a>
+  <a href="https://www.instagram.com/julio_arturo_rodriguez/" target="_blank">
+    <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" alt="Instagram"/>
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100029503638140&locale=es_LA" target="_blank">
+    <img src="https://img.icons8.com/doodle/40/000000/facebook-new.png" alt="Facebook"/>
+  </a>
+</p>
+
 
 
 ---
