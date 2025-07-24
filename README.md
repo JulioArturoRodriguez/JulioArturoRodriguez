@@ -197,11 +197,6 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
   </a>
   <br><br>
 
-  <a href="https://www-front-diplomatura-proyect-utncudi-julioi-rodiguez-com.vercel.app/servicio" target="_blank">
-    <img src="https://www-front-diplomatura-proyect-ut-julioarturorodriguezs-projects.vercel.app/" alt="Aplicación web MERN">
-  </a>
-  <br><br>
-
   <a href="https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado" target="_blank">
     <img src="https://img.shields.io/badge/Corrección%20del%20Frontend%20🧪-purple?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Corrección Frontend">
   </a>
