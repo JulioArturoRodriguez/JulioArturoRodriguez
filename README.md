@@ -66,17 +66,41 @@ Mi perfil es multidisciplinario, con conocimientos en diversas áreas de IT: des
 
 ## 🎓 Formación y certificaciones
 
-Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con **certificación oficial de validez nacional**:
 
-- Diplomaturas en:  
-  - **Codo a Codo 4.0**  
-  - **Talento Tech**  
-  - **UTN (Universidad Tecnológica Nacional)**  
-  - **Argentina Programa**
-- Certificaciones de **centros de formación profesional con prácticas reales**, avaladas por:  
-  - **INET (Instituto Nacional de Educación Tecnológica)**  
-  - **Gremios como UOM (metalúrgicos)** y **SEDUCA**
-- Actualmente curso el **segundo cuatrimestre** de una diplomatura en **Desarrollo de Software** con orientación práctica.
+Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:
+
+<div align="center">
+  
+  <img src="https://www.buenosaires.gob.ar/sites/gcaba/files/codoacodo_2.png" alt="Codo a Codo" height="50" style="margin-right: 20px;"/>
+  <img src="https://pbs.twimg.com/profile_images/1720471061888626688/xyFMVDjl_400x400.jpg" alt="Talento Tech" height="50" style="margin-right: 20px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/UTN_logo.svg/512px-UTN_logo.svg.png" alt="UTN" height="50" style="margin-right: 20px;"/>
+  <img src="https://argentinaprograma.inti.gob.ar/static/media/logo_2.0.fdbd7e5e.png" alt="Argentina Programa" height="50" style="margin-right: 20px;"/>
+</div>
+
+### 📘 Diplomaturas cursadas:
+- **Codo a Codo 4.0**
+- **Talento Tech**
+- **UTN - Universidad Tecnológica Nacional**
+- **Argentina Programa 1 y 2**
+
+---
+
+<div align="center">
+  <img src="https://www.argentina.gob.ar/sites/default/files/logo-inet-azul.png" alt="INET" height="50" style="margin-right: 20px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Logo_UOMRA.png" alt="UOM" height="50" style="margin-right: 20px;"/>
+  <img src="https://seduca.org.ar/wp-content/uploads/2019/12/LogoSeducaHorizontal-1-300x107.png" alt="SEDUCA" height="50" />
+</div>
+
+### 🧪 Certificaciones prácticas avaladas por:
+- **INET** – Instituto Nacional de Educación Tecnológica
+- **UOM** – Unión Obrera Metalúrgica
+- **SEDUCA** – Sindicato de Educadores
+
+---
+
+🎯 **Actualmente:**  
+Curso el segundo cuatrimestre de una diplomatura en **Desarrollo de Software con orientación práctica**, enfocada en herramientas reales de la industria.
+
 
 ---
 
