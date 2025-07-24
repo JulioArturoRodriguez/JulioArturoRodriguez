@@ -1,7 +1,7 @@
 # ¡Hola! 👋 Soy Julio Arturo Rodríguez
 
 Gracias por tomarte el tiempo de leer esto y darme la oportunidad de presentarme.  
-Mi perfil es multidisciplinario, con conocimientos en diversas áreas de IT: desarrollo web, testing, soporte técnico, hardware, diseño UX/UI, administración con informática, y análisis funcional y base de datos.
+Mi perfil es multidisciplinario, con conocimientos en diversas áreas de IT: desarrollo web, testing, soporte técnico, hardware, diseño UX/UI, administración con informática,  análisis funcional, base de datos, aplicaciones de escritorio.
 
 ---
 
