@@ -76,16 +76,16 @@ Cuento con formación respaldada por programas nacionales y centros de formació
 
 <ul>
   <li>
-    <img src="images/codoacodo_2.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
+    <img src="IMG/descarga.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
   </li>
   <li>
-    <img src="images/talentotech.png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
+    <img src="IMG/descarga (2).png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
   </li>
   <li>
-    <img src="images/utn_logo.png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
+    <img src="IMG/descarga (1).png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
   </li>
   <li>
-    <img src="images/argentina_programa.png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
+    <img src="IMG/descarga (3).png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
   </li>
 </ul>
 
@@ -93,13 +93,13 @@ Cuento con formación respaldada por programas nacionales y centros de formació
 
 <ul>
   <li>
-    <img src="images/inet.png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
+    <img src="IMG/descarga (4).png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
   </li>
   <li>
-    <img src="images/uom.png" alt="UOM" width="25" style="vertical-align: middle;"/> <strong>UOM</strong> – Unión Obrera Metalúrgica
+    <img src="IMG/descarga (5).png" alt="UOM" width="25" style="vertical-align: middle;"/> <strong>UOM</strong> – Unión Obrera Metalúrgica
   </li>
   <li>
-    <img src="images/seduca.png" alt="SEDUCA" width="25" style="vertical-align: middle;"/> <strong>SEDUCA</strong> – Sindicato de Educadores
+    <img src="IMG/descarga.jpeg" alt="SEDUCA" width="25" style="vertical-align: middle;"/> <strong>SEDUCA</strong> – Sindicato de Educadores
   </li>
 </ul>
 
