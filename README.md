@@ -191,20 +191,22 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
     <img src="https://img.shields.io/badge/Back-End%20Help%20Desk%20🛠️-181717?style=for-the-badge&logo=github&logoColor=white" alt="Backend Help Desk">
   </a>
   <br><br>
+
   <a href="https://github.com/JulioArturoRodriguez/www.front-diplomatura-proyect-utncudi-julioi-rodiguez.com" target="_blank">
     <img src="https://img.shields.io/badge/Front-End%20Help%20Desk%20🌐-blue?style=for-the-badge&logo=react&logoColor=white" alt="Frontend Help Desk">
   </a>
   <br><br>
+
   <a href="https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado" target="_blank">
     <img src="https://img.shields.io/badge/Corrección%20del%20Frontend%20🧪-purple?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Corrección Frontend">
   </a>
   <br><br>
 
-  <p align="center">
   <a href="https://merlobonadev-julioarturorodriguezs-projects.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Página%20desplegada%20en%20Vercel%20🌐-000000?style=for-the-badge&logo=vercel&logoColor=white" alt=" 💼 Portafolio web">
+    <img src="https://img.shields.io/badge/📁%20Portafolio%20Web%20con%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Portafolio web">
   </a>
 </p>
+
 
 
 
