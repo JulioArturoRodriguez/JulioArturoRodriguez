@@ -51,11 +51,11 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 
 ---
-## 📊 GitHub Stats
+## 📊 estadisticas
 
 ![JulioArturoRodriguez's GitHub stats](https://github-readme-stats.vercel.app/api?username=JulioArturoRodriguez&show_icons=true&theme=default)
 
-## 🧠 Lenguajes más usados
+## 🧠 tecnologias mas usadas
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JulioArturoRodriguez&layout=compact)
 
