@@ -202,7 +202,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
   <p align="center">
   <a href="https://merlobonadev-julioarturorodriguezs-projects.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Página%20desplegada%20en%20Vercel%20🌐-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio desplegado en Vercel">
+    <img src="https://img.shields.io/badge/Página%20desplegada%20en%20Vercel%20🌐-000000?style=for-the-badge&logo=vercel&logoColor=white" alt=" 💼 Portafolio web">
   </a>
 </p>
 
