@@ -203,12 +203,10 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
     <img src="https://img.shields.io/badge/Portafolio%20de%20Tecnologías%20📚-green?style=for-the-badge&logo=code&logoColor=white" alt="Portafolio Tecnológico">
   </a>
 </p>
-** acceso directo**
-- 🔧 [Back-End de App Help Desk](https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez)
-- 🎨 [Front-End de App Help Desk](https://github.com/JulioArturoRodriguez/www.front-diplomatura-proyect-utncudi-julioi-rodiguez.com)
-- 🛠️ [Corrección del Front-End](https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado)
-- 📘 [Portfolio de tecnologías (en desarrollo)](https://github.com/JulioArturoRodriguez/MerloBonaDev)
-- 
+
+
+
+
 ---
 ## 📊 estadisticas
 
