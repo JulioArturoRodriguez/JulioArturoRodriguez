@@ -52,11 +52,4 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 ---
 
-## 📈 Mis estadísticas de GitHub
-
-![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=julioarturord&show_icons=true&theme=radical)
-
-![Lenguajes más usados](https://github-readme-stats.vercel.app/api/top-langs/?username=julioarturord&layout=compact&theme=radical)
-
----
 
