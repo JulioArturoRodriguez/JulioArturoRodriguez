@@ -202,13 +202,10 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
   </a>
 </p>
 
-
-<br><br>
-
   <a href="https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado" target="_blank">
     <img src="https://img.shields.io/badge/Corrección%20del%20Frontend%20🧪-purple?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Corrección Frontend">
   </a>
-  <br><br>
+  <br>
 
   <a href="https://merlobonadev-julioarturorodriguezs-projects.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/📁%20Portafolio%20Web%20con%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Portafolio web">
