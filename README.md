@@ -24,6 +24,8 @@ Mi perfil es multidisciplinario, con conocimientos en diversas áreas de IT: des
 ![Styled Components](https://img.shields.io/badge/-Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 ### 🗄️ Bases de datos
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
