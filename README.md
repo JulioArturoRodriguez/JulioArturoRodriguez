@@ -184,8 +184,31 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
   </a>
 </p>
 
+<h2 align="center">📁 Proyectos Educativos Destacados</h2>
 
-
+<p align="center">
+  <a href="https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez" target="_blank">
+    <img src="https://img.shields.io/badge/Back-End%20Help%20Desk%20🛠️-181717?style=for-the-badge&logo=github&logoColor=white" alt="Backend Help Desk">
+  </a>
+  <br><br>
+  <a href="https://github.com/JulioArturoRodriguez/www.front-diplomatura-proyect-utncudi-julioi-rodiguez.com" target="_blank">
+    <img src="https://img.shields.io/badge/Front-End%20Help%20Desk%20🌐-blue?style=for-the-badge&logo=react&logoColor=white" alt="Frontend Help Desk">
+  </a>
+  <br><br>
+  <a href="https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado" target="_blank">
+    <img src="https://img.shields.io/badge/Corrección%20del%20Frontend%20🧪-purple?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Corrección Frontend">
+  </a>
+  <br><br>
+  <a href="https://github.com/JulioArturoRodriguez/MerloBonaDev" target="_blank">
+    <img src="https://img.shields.io/badge/Portafolio%20de%20Tecnologías%20📚-green?style=for-the-badge&logo=code&logoColor=white" alt="Portafolio Tecnológico">
+  </a>
+</p>
+** acceso directo**
+- 🔧 [Back-End de App Help Desk](https://github.com/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez)
+- 🎨 [Front-End de App Help Desk](https://github.com/JulioArturoRodriguez/www.front-diplomatura-proyect-utncudi-julioi-rodiguez.com)
+- 🛠️ [Corrección del Front-End](https://github.com/JulioArturoRodriguez/www.Help-Desk-AlmerTechmerloproyectodiplomado)
+- 📘 [Portfolio de tecnologías (en desarrollo)](https://github.com/JulioArturoRodriguez/MerloBonaDev)
+- 
 ---
 ## 📊 estadisticas
 
