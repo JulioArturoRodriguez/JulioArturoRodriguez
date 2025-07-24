@@ -107,6 +107,49 @@ Cuento con formación respaldada por programas nacionales y centros de formació
 Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Software con orientación práctica</strong>, enfocada en herramientas reales de la industria.
 </p>
 
+<h2>🏫 Instituciones educativas y centros de formación</h2>
+<p>He desarrollado mi formación a través de diversas instituciones educativas y programas especializados, tanto en educación formal como no formal, en áreas técnicas, tecnológicas y lingüísticas:</p>
+
+<h3>🏛️ Formación técnica y profesional</h3>
+<ul>
+  <li>
+    <img src="IMG/descarga (3).jpeg" alt="IFTS 11" width="25" style="vertical-align: middle;" />
+    <strong> Instituto de Formación Técnica Superior N.º 11 (IFTS 11)</strong> – Formación en tecnología aplicada, con orientación práctica y certificación oficial.
+  </li>
+  <li>
+    <img src="IMG/descarga (7).png" alt="CUDI" width="25" style="vertical-align: middle;" />
+    <strong> Centro Universitario de González Catán (CUDI)</strong> – Participación en programas de capacitación universitaria descentralizada.
+  </li>
+  <li>
+    <img src="IMG/descarga (1).jpeg" alt="CFP 31" width="25" style="vertical-align: middle;" />
+    <strong> Centro de Formación Profesional N.º 31 (CFP 31)</strong> – Cursos de capacitación técnica en entornos productivos, avalados por el INET.
+  </li>
+  <li>
+    <img src="IMG/255120278_3038442806402658_2233808457185965660_n.jpg" alt="CFP 406" width="25" style="vertical-align: middle;" />
+    <strong> Centro de Formación Profesional N.º 406 – La Matanza</strong> – Capacitación técnica e industrial con validez nacional.
+  </li>
+</ul>
+
+<h3>🌐 Educación no formal y programas lingüísticos</h3>
+<ul>
+  <li>
+    <img src="IMG/descarga (6).png" alt="Ciudad Bilingüe" width="25" style="vertical-align: middle;" />
+    <strong> Ciudad Bilingüe</strong> – Programa de formación en idiomas enfocado en competencias comunicativas en inglés.
+  </li>
+  <li>
+    <img src="IMG/descarga (2).jpeg" alt="CUI Idiomas" width="25" style="vertical-align: middle;" />
+    <strong> CUI Idiomas – Centro Universitario de Idiomas</strong> – Cursos de inglés general y técnico en diferentes niveles.
+  </li>
+</ul>
+
+<h3>🏛️ Universidades e instituciones complementarias</h3>
+<ul>
+  <li>
+    <img src="IMG/IMAGEN.png" alt="UTN" width="25" style="vertical-align: middle;" />
+    <strong> UTN – Universidad Tecnológica Nacional</strong> – Diplomaturas y cursos especializados en desarrollo de software y tecnologías aplicadas.
+  </li>
+</ul>
+
 
 ---
 
