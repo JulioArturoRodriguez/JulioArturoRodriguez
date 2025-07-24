@@ -52,4 +52,11 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 ---
 
+## 📊 GitHub Stats
+
+![Tu nombre de usuario GitHub's GitHub stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=default)
+
+## 🧠 Lenguajes más usados
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact)
 
