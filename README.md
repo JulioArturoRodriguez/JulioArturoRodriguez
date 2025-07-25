@@ -49,7 +49,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-### 🛠️ Herramientas
+
 <h3>🛠️ Herramientas</h3>
 
 <a href="https://visualstudio.microsoft.com/" target="_blank">
@@ -65,8 +65,9 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 </a>
 
 <a href="http://www.codeblocks.org/" target="_blank">
-  <img src="https://img.shields.io/badge/Code::Blocks-4F4F4F?style=for-the-badge" alt="Code::Blocks">
+  <img src="https://img.shields.io/badge/Code::Blocks-4F4F4F?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks">
 </a>
+
 
 
 
