@@ -50,8 +50,24 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ### 🛠️ Herramientas
-![VS Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![NetBeans](https://img.shields.io/badge/-NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
+<h3>🛠️ Herramientas</h3>
+
+<a href="https://visualstudio.microsoft.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio">
+</a>
+
+<a href="https://code.visualstudio.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
+</a>
+
+<a href="https://netbeans.apache.org/" target="_blank">
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white" alt="Apache NetBeans">
+</a>
+
+<a href="http://www.codeblocks.org/" target="_blank">
+  <img src="https://img.shields.io/badge/Code::Blocks-4F4F4F?style=for-the-badge" alt="Code::Blocks">
+</a>
+
 
 
 ### ☁️ Cloud Hosting
