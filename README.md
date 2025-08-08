@@ -221,12 +221,12 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
   <br><br>
 
   <a href="https://merlobonadev-julioarturorodriguezs-projects.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/📁%20Portafolio%20Web%20con%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Portafolio web">
+    <img src="https://img.shields.io/badge/📁%20Portafolio%20Web%20con%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Portafolio Web Vercel">
   </a>
-</p>
+  <br><br>
 
- <a href="https://www-front-diplomatura-proyect-utncudi-julioi-rodiguez-com.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/📁%20Portafolio%20Web%20con%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Portafolio web">
+  <a href="https://www-front-diplomatura-proyect-utncudi-julioi-rodiguez-com.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/📁%20Aplicación%20Web%20de%20Muestra-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="💼 Aplicación Web de Muestra">
   </a>
 </p>
 
