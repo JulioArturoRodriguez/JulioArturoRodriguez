@@ -33,7 +33,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Bcrypt](https://img.shields.io/badge/-Bcrypt-563D7C?style=for-the-badge)
 ![Mongoose](https://img.shields.io/badge/-Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Spring Web](https://img.shields.io/badge/-Spring_Web-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/-Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/-Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) ![Lombok](https://img.shields.io/badge/-Lombok-CA4245?style=for-the-badge&logo=lombok&logoColor=white) ![Maven](https://img.shields.io/badge/-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Spring Web](https://img.shields.io/badge/-Spring_Web-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/-Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/-Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) ![Lombok](https://img.shields.io/badge/-Lombok-CA4245?style=for-the-badge&logo=lombok&logoColor=white)
 
 
 ### 🗄️ Bases de datos  
@@ -69,6 +69,11 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 <a href="http://www.codeblocks.org/" target="_blank">
   <img src="https://img.shields.io/badge/Code::Blocks-4F4F4F?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks">
 </a>
+
+### 🛠️ Herramientas de Construcción y Generación de Proyectos
+![Spring Initializr](https://img.shields.io/badge/-Spring_Initializr-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 
 
