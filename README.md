@@ -48,6 +48,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ### 🧪 Testing
 ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Insomnia](https://img.shields.io/badge/-Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 
 
 <h3>🛠️ Herramientas</h3>
