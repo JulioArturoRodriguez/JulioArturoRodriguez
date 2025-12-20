@@ -79,6 +79,8 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/-Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![MongoAtlas](https://img.shields.io/badge/-MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Aiven](https://img.shields.io/badge/-Aiven-FF0000?style=for-the-badge&logo=aiven&logoColor=white)
+
 
 ### 🎨 Otros
 `UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`
