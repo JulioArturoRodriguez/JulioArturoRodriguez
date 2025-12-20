@@ -69,6 +69,14 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 <a href="http://www.codeblocks.org/" target="_blank">
   <img src="https://img.shields.io/badge/Code::Blocks-4F4F4F?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Code::Blocks">
 </a>
+<a href="https://www.eclipse.org/" target="_blank">
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white" alt="Eclipse IDE">
+</a>
+
+<a href="https://www.jetbrains.com/idea/" target="_blank">
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
+</a>
+
 
 ### 🛠️ Herramientas de Construcción y Generación de Proyectos
 ![Spring Initializr](https://img.shields.io/badge/-Spring_Initializr-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
