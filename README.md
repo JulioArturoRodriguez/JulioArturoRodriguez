@@ -250,7 +250,8 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ---
 ## 📊 estadisticas
 
-![JulioArturoRodriguez's GitHub stats](https://github-readme-stats.vercel.app/api?username=JulioArturoRodriguez&show_icons=true&theme=default)
+![JulioArturoRodriguez's GitHub stats](
+https://awesome-github-profile-readme-templ-ten.vercel.app/#/)
 
 ## 🧠 tecnologias mas usadas
 
