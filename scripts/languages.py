@@ -1,3 +1,4 @@
+
 import requests
 import matplotlib.pyplot as plt
 import json
@@ -19,6 +20,11 @@ for repo in repos:
     langs = requests.get(repo["languages_url"], headers=headers).json()
     for lang, bytes_count in langs.items():
         language_totals[lang] = language_totals.get(lang, 0) + bytes_count
+
+# Si no hay lenguajes, no generamos nada
+if not language_totals:
+    print("No se detectaron lenguajes. Puede ser rate limit.")
+    exit(0)
 
 # Calcular porcentajes
 total_bytes = sum(language_totals.values())
