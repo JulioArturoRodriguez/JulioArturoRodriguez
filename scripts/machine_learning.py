@@ -45,19 +45,19 @@ os.makedirs("output", exist_ok=True)
 
 sorted_ml = dict(sorted(ml_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/ml_stats.json", "w") as f:
+with open("output/machine_learning.json", "w") as f:
     json.dump(sorted_ml, f, indent=4)
 
-with open("output/ml_stats.md", "w") as f:
-    f.write("## Machine Learning detectado automáticamente\n\n")
+with open("output/machine_learning.md", "w") as f:
+    f.write("## Tecnologías de Machine Learning detectadas automáticamente\n\n")
     for tech, count in sorted_ml.items():
         f.write(f"- **{tech}**: {count} repos\n")
 
 if sorted_ml:
     plt.figure(figsize=(12, 6))
     plt.bar(sorted_ml.keys(), sorted_ml.values(), color="orange")
-    plt.title("Machine Learning detectado")
+    plt.title("Tecnologías de Machine Learning detectadas")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/ml_stats.png")
+    plt.savefig("output/machine_learning.png")
     plt.close()
