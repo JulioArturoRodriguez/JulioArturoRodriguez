@@ -43,10 +43,10 @@ os.makedirs("output", exist_ok=True)
 
 sorted_db = dict(sorted(db_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/database_stats.json", "w") as f:
+with open("output/databases.json", "w") as f:
     json.dump(sorted_db, f, indent=4)
 
-with open("output/database_stats.md", "w") as f:
+with open("output/databases.md", "w") as f:
     f.write("## Bases de datos detectadas automáticamente\n\n")
     for tech, count in sorted_db.items():
         f.write(f"- **{tech}**: {count} repos\n")
@@ -57,7 +57,5 @@ if sorted_db:
     plt.title("Bases de datos detectadas")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/database_stats.png")
+    plt.savefig("output/databases.png")
     plt.close()
-
-
