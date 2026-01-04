@@ -48,10 +48,10 @@ os.makedirs("output", exist_ok=True)
 
 sorted_tools = dict(sorted(tools_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/tools_stats.json", "w") as f:
+with open("output/tools.json", "w") as f:
     json.dump(sorted_tools, f, indent=4)
 
-with open("output/tools_stats.md", "w") as f:
+with open("output/tools.md", "w") as f:
     f.write("## Herramientas detectadas automáticamente\n\n")
     for tech, count in sorted_tools.items():
         f.write(f"- **{tech}**: {count} repos\n")
@@ -62,5 +62,5 @@ if sorted_tools:
     plt.title("Herramientas detectadas")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/tools_stats.png")
+    plt.savefig("output/tools.png")
     plt.close()
