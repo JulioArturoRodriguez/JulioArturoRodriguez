@@ -269,3 +269,26 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 ---
 
+## 📊 Frameworks
+![Frameworks](output/framework_stats.png)
+<!-- AUTO-FRAMEWORKS -->
+
+## 📊 Librerías
+![Librerías](output/library_stats.png)
+<!-- AUTO-LIBRARIES -->
+
+## 📊 Bases de datos
+![Bases de datos](output/database_stats.png)
+<!-- AUTO-DATABASES -->
+
+## 📊 Machine Learning / Deep Learning
+![Machine Learning](output/ml_stats.png)
+<!-- AUTO-ML -->
+
+## 📊 Testing
+![Testing](output/testing_stats.png)
+<!-- AUTO-TESTING -->
+
+## 📊 Herramientas
+![Herramientas](output/tools_stats.png)
+<!-- AUTO-TOOLS -->
