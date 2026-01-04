@@ -1,5 +1,8 @@
 name: Update Language Stats
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"   # Cada 24 horas a medianoche UTC
