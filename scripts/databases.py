@@ -59,3 +59,6 @@ if sorted_db:
     plt.tight_layout()
     plt.savefig("output/database_stats.png")
     plt.close()
+
+# Pequeño comentario para forzar un commit y sincronizar el workflow
+pass
