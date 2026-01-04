@@ -1,4 +1,4 @@
-# Workflow update
+# Workflow updat
 name: Update Framework Stats
 
 permissions:
