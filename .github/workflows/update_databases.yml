@@ -33,11 +33,14 @@ jobs:
         run: |
           sed -i '/<!-- AUTO-DATABASES -->/r output/databases.md' README.md
 
-      - name: Commit and push results
+      - name: Configure git credentials
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git pull --rebase origin main || true
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Commit and push results
+        run: |
           git add output/databases.png output/databases.json output/databases.md README.md
           git commit -m "Update database stats" || echo "No changes to commit"
           git push
