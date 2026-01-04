@@ -43,10 +43,10 @@ os.makedirs("output", exist_ok=True)
 
 sorted_testing = dict(sorted(testing_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/testing_stats.json", "w") as f:
+with open("output/testing.json", "w") as f:
     json.dump(sorted_testing, f, indent=4)
 
-with open("output/testing_stats.md", "w") as f:
+with open("output/testing.md", "w") as f:
     f.write("## Testing detectado automáticamente\n\n")
     for tech, count in sorted_testing.items():
         f.write(f"- **{tech}**: {count} repos\n")
@@ -57,5 +57,5 @@ if sorted_testing:
     plt.title("Testing detectado")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/testing_stats.png")
+    plt.savefig("output/testing.png")
     plt.close()
