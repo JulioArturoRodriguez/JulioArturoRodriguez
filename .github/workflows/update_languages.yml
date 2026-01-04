@@ -16,10 +16,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-          clean: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,21 +26,18 @@ jobs:
         run: pip install matplotlib requests
 
       - name: Run language analysis
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python scripts/languages.py
 
       - name: Update README with language stats
         run: |
           sed -i '/<!-- AUTO-LANGUAGES -->/r output/languages.md' README.md
 
-      - name: Configure git credentials
+      - name: Commit and push results
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git remote remove origin
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-
-      - name: Commit and push results
-        run: |
           git add output/languages.png output/languages.json output/languages.md README.md
           git commit -m "Update language stats" || echo "No changes to commit"
           git push || true
