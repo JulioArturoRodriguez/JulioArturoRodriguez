@@ -4,16 +4,19 @@ import json
 import os
 
 USER = "JulioArturoRodriguez"
+TOKEN = os.getenv("GH_TOKEN")
+
+headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 # Obtener repos públicos del usuario
 repos_url = f"https://api.github.com/users/{USER}/repos"
-repos = requests.get(repos_url).json()
+repos = requests.get(repos_url, headers=headers).json()
 
 language_totals = {}
 
 # Recorrer cada repo y sumar bytes por lenguaje
 for repo in repos:
-    langs = requests.get(repo["languages_url"]).json()
+    langs = requests.get(repo["languages_url"], headers=headers).json()
     for lang, bytes_count in langs.items():
         language_totals[lang] = language_totals.get(lang, 0) + bytes_count
 
@@ -52,3 +55,4 @@ plt.tight_layout()
 
 # Guardar imagen
 plt.savefig("output/languages.png")
+plt.close()
