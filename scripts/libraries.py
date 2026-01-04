@@ -45,10 +45,10 @@ os.makedirs("output", exist_ok=True)
 
 sorted_lib = dict(sorted(library_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/library_stats.json", "w") as f:
+with open("output/libraries.json", "w") as f:
     json.dump(sorted_lib, f, indent=4)
 
-with open("output/library_stats.md", "w") as f:
+with open("output/libraries.md", "w") as f:
     f.write("## Librerías detectadas automáticamente\n\n")
     for tech, count in sorted_lib.items():
         f.write(f"- **{tech}**: {count} repos\n")
@@ -59,6 +59,5 @@ if sorted_lib:
     plt.title("Librerías detectadas")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/library_stats.png")
+    plt.savefig("output/libraries.png")
     plt.close()
-
