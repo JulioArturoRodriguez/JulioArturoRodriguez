@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 
 USER = "JulioArturoRodriguez"
 
-# Tecnologías a detectar por patrones
 TECH_PATTERNS = {
     "React": r"react",
     "Node.js": r"node",
@@ -65,23 +64,18 @@ for repo in repos:
             for tech in found_techs:
                 tech_counts[tech] = tech_counts.get(tech, 0) + 1
 
-# Ordenar tecnologías
 sorted_techs = dict(sorted(tech_counts.items(), key=lambda x: x[1], reverse=True))
 
-# Crear carpeta output
 os.makedirs("output", exist_ok=True)
 
-# Guardar JSON
 with open("output/tech.json", "w") as f:
     json.dump(sorted_techs, f, indent=4)
 
-# Guardar ranking en Markdown
 with open("output/tech.md", "w") as f:
     f.write("## 🚀 Tecnologías más usadas (actualizado automáticamente)\n\n")
     for tech, count in sorted_techs.items():
         f.write(f"- **{tech}**: {count} repos\n")
 
-# Graficar
 plt.figure(figsize=(12, 6))
 plt.bar(sorted_techs.keys(), sorted_techs.values(), color='orange')
 plt.title(f"Tecnologías detectadas en repos de {USER}")
@@ -90,3 +84,4 @@ plt.ylabel("Cantidad de repos donde aparece")
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("output/tech.png")
+plt.close()
