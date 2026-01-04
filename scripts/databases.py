@@ -1,3 +1,4 @@
+
 import requests
 import os
 import re
@@ -51,7 +52,7 @@ with open("output/databases.md", "w") as f:
     for tech, count in sorted_db.items():
         f.write(f"- **{tech}**: {count} repos\n")
 
-# ⭐ SIEMPRE generar el PNG, aunque no haya datos
+# SIEMPRE generar el PNG
 plt.figure(figsize=(12, 6))
 plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
 plt.title("Bases de datos detectadas")
