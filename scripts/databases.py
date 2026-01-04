@@ -51,11 +51,11 @@ with open("output/databases.md", "w") as f:
     for tech, count in sorted_db.items():
         f.write(f"- **{tech}**: {count} repos\n")
 
-if sorted_db:
-    plt.figure(figsize=(12, 6))
-    plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
-    plt.title("Bases de datos detectadas")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig("output/databases.png")
-    plt.close()
+# ⭐ SIEMPRE generar el PNG, aunque no haya datos
+plt.figure(figsize=(12, 6))
+plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
+plt.title("Bases de datos detectadas")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig("output/databases.png")
+plt.close()
