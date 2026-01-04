@@ -53,10 +53,10 @@ os.makedirs("output", exist_ok=True)
 
 sorted_fw = dict(sorted(framework_counts.items(), key=lambda x: x[1], reverse=True))
 
-with open("output/framework_stats.json", "w") as f:
+with open("output/frameworks.json", "w") as f:
     json.dump(sorted_fw, f, indent=4)
 
-with open("output/framework_stats.md", "w") as f:
+with open("output/frameworks.md", "w") as f:
     f.write("## Frameworks detectados automáticamente\n\n")
     for tech, count in sorted_fw.items():
         f.write(f"- **{tech}**: {count} repos\n")
@@ -67,5 +67,5 @@ if sorted_fw:
     plt.title("Frameworks detectados")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig("output/framework_stats.png")
+    plt.savefig("output/frameworks.png")
     plt.close()
