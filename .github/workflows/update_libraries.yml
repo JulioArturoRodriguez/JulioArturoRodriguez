@@ -34,7 +34,7 @@ jobs:
 
       - name: Update README with library stats
         run: |
-          sed -i '/<!-- AUTO-LIBRARIES -->/r output/libraries.md' README.md
+          sed -i '/<!-- AUTO-LIBRARIES -->/r output/tools.md' README.md
 
       - name: Configure git credentials
         run: |
@@ -45,6 +45,6 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git add output/libraries.png output/libraries.json output/libraries.md README.md
+          git add output/tools.png output/tools.json output/tools.md README.md
           git commit -m "Update library stats" || echo "No changes to commit"
           git push || true
