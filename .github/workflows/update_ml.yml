@@ -6,7 +6,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Cada 24 horas a medianoche UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -36,6 +38,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          git pull --rebase origin main || true
           git add output/machine_learning.png output/machine_learning.json output/machine_learning.md README.md
           git commit -m "Update machine learning stats" || echo "No changes to commit"
           git push
