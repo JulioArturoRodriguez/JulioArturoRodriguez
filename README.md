@@ -248,22 +248,26 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 </p>
 
 ---
+---
 ## 📊 Estadísticas
 
 ### 📌 Lenguajes que uso en GitHub (actualizado cada 24 horas)
-
 ![Lenguajes](output/languages.png)
 
 ### 📄 Ranking en texto  
 (Se actualiza automáticamente)
+<!-- AUTO-LANGUAGES -->
+
 
 ## 📊 Frameworks
 ![Frameworks](output/framework_stats.png)
 <!-- AUTO-FRAMEWORKS -->
 
+
 ## 📊 Librerías
 ![Librerías](output/library_stats.png)
 <!-- AUTO-LIBRARIES -->
+
 
 ## 📊 Bases de datos
 ![Bases de datos](output/database_stats.png)
@@ -274,25 +278,12 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ![Machine Learning](output/ml_stats.png)
 <!-- AUTO-ML -->
 
+
 ## 📊 Testing
 ![Testing](output/testing_stats.png)
 <!-- AUTO-TESTING -->
-## Testing detectado automáticamente
 
-- **Selenium**: 2 repos
-- **Postman**: 1 repos
-- **Insomnia**: 1 repos
 
 ## 📊 Herramientas
-![Herramientas](output/tools_stats.png)
+![Herramientas](output/tools.png)
 <!-- AUTO-TOOLS -->
-## Herramientas detectadas automáticamente
-
-- **Vite**: 25 repos
-- **Maven**: 7 repos
-- **Visual Studio Code**: 5 repos
-- **Eclipse**: 3 repos
-- **IntelliJ IDEA**: 2 repos
-- **NetBeans**: 2 repos
-- **CodeBlocks**: 1 repos
-<!-- sync -->
