@@ -6,7 +6,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Cada 24 horas a medianoche UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -35,83 +35,11 @@ jobs:
         run: |
           sed -i '/<!-- AUTO-LANGUAGES -->/r output/languages.md' README.md
 
-      
-      
-      
-      
-      
       - name: Commit and push results
-       
-        
-        
-        
-        
-        
-        
-        
         run: |
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git config --global user.name "GitHub Action"
-         
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git config --global user.email "action@github.com"
-         
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git pull --rebase origin main || true
-        
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git add output/languages.png output/languages.json output/languages.md README.md
-         
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git commit -m "Update language stats" || echo "No changes to commit"
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
           git push
