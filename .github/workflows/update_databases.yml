@@ -1,3 +1,5 @@
+name: Update Database Stats
+
 permissions:
   contents: write
 
