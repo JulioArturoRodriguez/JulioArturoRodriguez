@@ -277,6 +277,11 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Testing
 ![Testing](output/testing_stats.png)
 <!-- AUTO-TESTING -->
+## Testing detectado automáticamente
+
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
 
 ## 📊 Herramientas
 ![Herramientas](output/tools_stats.png)
