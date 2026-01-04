@@ -268,6 +268,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Bases de datos
 ![Bases de datos](output/database_stats.png)
 <!-- AUTO-DATABASES -->
+<3 líneas más>
 
 ## 📊 Machine Learning / Deep Learning
 ![Machine Learning](output/ml_stats.png)
