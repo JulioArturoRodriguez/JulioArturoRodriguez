@@ -250,10 +250,14 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ---
 ## 📊 estadisticas
 
-![JulioArturoRodriguez's GitHub stats](![Metrics](https://metrics.lecoq.io/JulioArturoRodriguez?template=classic&base=header,activity,community,repositories,metadata&languages=1&followup=1&isocalendar=1&lines=1&achievements=1&notable=1)
-)
+## 📊 Lenguajes que uso en GitHub (actualizado cada 24 horas)
 
-## 🧠 tecnologias mas usadas
+![Lenguajes](output/languages.png)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JulioArturoRodriguez&layout=compact)
+### 📄 Ranking en texto
+(Se actualiza automáticamente)
+
+<!-- AUTO-LANGUAGES -->
+
+---
 
