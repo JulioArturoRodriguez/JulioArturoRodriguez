@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          persist-credentials: false
+          clean: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -33,11 +35,15 @@ jobs:
         run: |
           sed -i '/<!-- AUTO-LIBRARIES -->/r output/libraries.md' README.md
 
-      - name: Commit and push results
+      - name: Configure git credentials
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git pull --rebase origin main || true
+          git remote remove origin
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Commit and push results
+        run: |
           git add output/libraries.png output/libraries.json output/libraries.md README.md
           git commit -m "Update library stats" || echo "No changes to commit"
-          git push
+          git push || true
