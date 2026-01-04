@@ -248,13 +248,13 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 </p>
 
 ---
-## 📊 estadisticas
+## 📊 Estadísticas
 
-## 📊 Lenguajes que uso en GitHub (actualizado cada 24 horas)
+### 📌 Lenguajes que uso en GitHub (actualizado cada 24 horas)
 
 ![Lenguajes](output/languages.png)
 
-### 📄 Ranking en texto
+### 📄 Ranking en texto  
 (Se actualiza automáticamente)
 
 <!-- AUTO-LANGUAGES -->
