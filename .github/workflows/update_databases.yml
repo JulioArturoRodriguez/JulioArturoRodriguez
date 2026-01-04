@@ -1,62 +1,43 @@
-name: Update Database Stats
-import requests
-import os
-import re
-import json
-import matplotlib.pyplot as plt
+permissions:
+  contents: write
 
-USER = "JulioArturoRodriguez"
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
-DATABASES = {
-    "MongoDB": r"mongo",
-    "MySQL": r"mysql",
-    "SQLite": r"sqlite"
-}
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-def fetch_file(url):
-    r = requests.get(url)
-    return r.text if r.status_code == 200 else ""
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          clean: false
 
-def detect_databases(text):
-    found = []
-    for tech, pattern in DATABASES.items():
-        if re.search(pattern, text, re.IGNORECASE):
-            found.append(tech)
-    return found
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-repos = requests.get(f"https://api.github.com/users/{USER}/repos").json()
+      - name: Install dependencies
+        run: pip install matplotlib requests
 
-db_counts = {}
+      - name: Run database analysis
+        run: python scripts/databases.py
 
-for repo in repos:
-    contents = requests.get(repo["contents_url"].replace("{+path}", "")).json()
-    if isinstance(contents, dict):
-        continue
+      - name: Update README with database stats
+        run: |
+          sed -i '/<!-- AUTO-DATABASES -->/r output/databases.md' README.md
 
-    for item in contents:
-        if item["type"] == "file":
-            text = fetch_file(item["download_url"])
-            found = detect_databases(text)
-            for tech in found:
-                db_counts[tech] = db_counts.get(tech, 0) + 1
-
-os.makedirs("output", exist_ok=True)
-
-sorted_db = dict(sorted(db_counts.items(), key=lambda x: x[1], reverse=True))
-
-with open("output/databases.json", "w") as f:
-    json.dump(sorted_db, f, indent=4)
-
-with open("output/databases.md", "w") as f:
-    f.write("## Bases de datos detectadas automáticamente\n\n")
-    for tech, count in sorted_db.items():
-        f.write(f"- **{tech}**: {count} repos\n")
-
-# ⭐ SIEMPRE generar el PNG, aunque no haya datos
-plt.figure(figsize=(12, 6))
-plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
-plt.title("Bases de datos detectadas")
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.savefig("output/databases.png")
-plt.close()
+      - name: Commit and push results
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git pull --rebase origin main || true
+          git add output/databases.png output/databases.json output/databases.md README.md
+          git commit -m "Update database stats" || echo "No changes to commit"
+          git push
