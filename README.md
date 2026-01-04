@@ -280,7 +280,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 
 ## 📊 Testing
-![Testing](output/testing_stats.png)
+![Testing](output/testing.png)
 <!-- AUTO-TESTING -->
 
 
