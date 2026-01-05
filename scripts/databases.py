@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use("Agg")  # <-- NECESARIO EN GITHUB ACTIONS
+
 import requests
 import os
 import re
@@ -15,13 +18,11 @@ DATABASES = {
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-# Extensiones que SÍ analizamos
 VALID_EXT = (
     ".py", ".js", ".ts", ".java", ".php", ".rb", ".go", ".cs",
     ".sql", ".json", ".yml", ".yaml", ".md"
 )
 
-# Carpetas que ignoramos
 IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 
 visited = set()
@@ -63,11 +64,14 @@ def scan_directory(url):
             for tech in found:
                 db_counts[tech] = db_counts.get(tech, 0) + 1
 
-# Obtener repos
 repos = requests.get(
     f"https://api.github.com/users/{USER}/repos?per_page=100",
     headers=headers
 ).json()
+
+if isinstance(repos, dict) and "message" in repos:
+    print("ERROR:", repos["message"])
+    exit(1)
 
 for repo in repos:
     print(f"Analizando repo: {repo['name']}")
