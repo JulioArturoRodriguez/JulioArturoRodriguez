@@ -72,8 +72,8 @@ FRAMEWORKS_BY_LANG = {
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-# Solo analizamos archivos de código real
-VALID_EXT = (".py", ".js", ".ts", ".java", ".php")
+# === EXTENSIONES QUE SE ANALIZAN ===
+VALID_EXT = (".py", ".js", ".jsx", ".ts", ".tsx", ".java", ".php")
 
 IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 
@@ -165,7 +165,7 @@ if not sorted_fw:
     plt.savefig("output/frameworks_0.png")
     plt.close()
 else:
-    chunk_size = 10  # frameworks por imagen
+    chunk_size = 10
     index = 0
 
     for chunk in chunk_list(sorted_fw, chunk_size):
