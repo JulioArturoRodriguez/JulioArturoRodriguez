@@ -3,6 +3,11 @@ import os
 import re
 import json
 
+# === Matplotlib para generar imagen en GitHub Actions ===
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
 USER = "JulioArturoRodriguez"
 
 # === FRAMEWORKS DETECTADOS SOLO POR CÓDIGO REAL ===
@@ -137,3 +142,19 @@ with open("output/frameworks.md", "w") as f:
     else:
         for tech, count in sorted_fw.items():
             f.write(f"- **{tech}**: {count} apariciones en código\n")
+
+# === GENERAR IMAGEN EN BARRAS ===
+plt.figure(figsize=(12, 6))
+
+if sorted_fw:
+    plt.bar(sorted_fw.keys(), sorted_fw.values(), color="green")
+else:
+    plt.text(0.5, 0.5, "No se detectaron frameworks",
+             ha="center", va="center", fontsize=14)
+
+plt.title("Frameworks detectados (solo código real)")
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig("output/frameworks.png")
+plt.close()
