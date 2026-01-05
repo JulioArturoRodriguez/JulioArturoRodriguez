@@ -13,12 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Pull latest changes
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          git pull --rebase
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -41,6 +35,12 @@ jobs:
 
       - name: Commit and push results
         run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          # FIX: traer cambios nuevos ANTES de pushear
+          git pull --rebase
+
           git add output/frameworks.png output/frameworks.md README.md
           git commit -m "Update framework stats" || echo "No changes to commit"
           git push
