@@ -48,4 +48,4 @@ jobs:
         run: |
           git add output/databases.png output/databases.json output/databases.md README.md
           git commit -m "Update database stats" || echo "No changes to commit"
-          git push || true
+          git push --set-upstream origin main
