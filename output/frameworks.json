@@ -1,0 +1,17 @@
+{
+    "CSS3": 1040,
+    "JSX/TSX": 660,
+    "React": 140,
+    "HTML5": 100,
+    "Express": 40,
+    "ReactDOM": 20,
+    "React Router": 20,
+    "Bootstrap": 20,
+    "NumPy": 20,
+    "Pandas": 20,
+    "Matplotlib": 20,
+    "Scikit-Learn": 20,
+    "TensorFlow": 20,
+    "Keras": 20,
+    "Mongoose": 20
+}
