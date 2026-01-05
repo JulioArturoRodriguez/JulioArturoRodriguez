@@ -278,6 +278,13 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Frameworks
 ![Frameworks](output/framework_stats.png)
 <!-- AUTO-FRAMEWORKS -->
+## Frameworks detectados (Front + Back + ML/DL)
+
+- **React**: 194 apariciones (~43.7%)
+- **Express**: 100 apariciones (~22.5%)
+- **TensorFlow**: 50 apariciones (~11.3%)
+- **Keras**: 50 apariciones (~11.3%)
+- **Scikit-Learn**: 50 apariciones (~11.3%)
 ## Frameworks detectados automáticamente (solo código real)
 
 - **CSS3**: 1040 apariciones en código
