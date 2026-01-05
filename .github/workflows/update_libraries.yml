@@ -1,4 +1,3 @@
-# trigger update
 name: Update Library Stats
 
 permissions:
@@ -17,7 +16,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          ref: main            
+          fetch-depth: 0       
           persist-credentials: false
           clean: false
 
@@ -34,7 +34,7 @@ jobs:
 
       - name: Update README with library stats
         run: |
-          sed -i '/<!-- AUTO-LIBRARIES -->/r output/tools.md' README.md
+          sed -i '/<!-- AUTO-LIBRARIES -->/r output/libraries.md' README.md
 
       - name: Configure git credentials
         run: |
@@ -45,6 +45,7 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git add output/tools.png output/tools.json output/tools.md README.md
+          git add output/libraries.png output/libraries.md README.md
           git commit -m "Update library stats" || echo "No changes to commit"
-          git push || true
+          git pull --rebase origin main     # 👈 AHORA FUNCIONA
+          git push origin main || true
