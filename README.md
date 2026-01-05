@@ -269,7 +269,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 
 ## 📊 Frameworks
-![Frameworks](output/framework_stats.png)
+![Frameworks](output/frameworks.png)
 <!-- AUTO-FRAMEWORKS -->
 
 ## 📊 Librerías
