@@ -46,4 +46,4 @@ jobs:
         run: |
           git add output/frameworks.png output/frameworks.json output/frameworks.md README.md
           git commit -m "Update framework stats" || echo "No changes to commit"
-          git push || true
+          git push --set-upstream origin main
