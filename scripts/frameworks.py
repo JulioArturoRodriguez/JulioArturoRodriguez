@@ -8,22 +8,34 @@ USER = "JulioArturoRodriguez"
 
 FRAMEWORKS = {
     "React": r"react",
-    "React Router": r"react-router",
-    "Styled Components": r"styled-components",
-    "Express": r"express",
-    "Node.js": r"node",
-    "Bootstrap": r"bootstrap",
-    "Mongoose": r"mongoose",
-    "Spring Boot": r"spring-boot",
-    "Spring Web": r"spring-web",
-    "Spring Security": r"spring-security",
-    "Spring Data JPA": r"spring-data-jpa",
-    "Hibernate": r"hibernate",
-    "Lombok": r"lombok"
+    "Angular": r"angular",
+    "Vue": r"vue",
+    "Django": r"django",
+    "Flask": r"flask",
+    "FastAPI": r"fastapi",
+    "Laravel": r"laravel",
+    "Spring": r"spring",
+    "Express": r"express"
 }
 
+# === TOKEN ===
+TOKEN = os.getenv("GH_TOKEN")
+headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+
+# Extensiones que SÍ analizamos
+VALID_EXT = (
+    ".py", ".js", ".ts", ".java", ".php", ".rb", ".go", ".cs",
+    ".json", ".yml", ".yaml", ".md"
+)
+
+# Carpetas que ignoramos
+IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
+
+visited = set()
+framework_counts = {}
+
 def fetch_file(url):
-    r = requests.get(url)
+    r = requests.get(url, headers=headers)
     return r.text if r.status_code == 200 else ""
 
 def detect_frameworks(text):
@@ -33,21 +45,41 @@ def detect_frameworks(text):
             found.append(tech)
     return found
 
-repos = requests.get(f"https://api.github.com/users/{USER}/repos").json()
+def scan_directory(url):
+    if url in visited:
+        return
+    visited.add(url)
 
-framework_counts = {}
+    contents = requests.get(url, headers=headers).json()
 
-for repo in repos:
-    contents = requests.get(repo["contents_url"].replace("{+path}", "")).json()
     if isinstance(contents, dict):
-        continue
+        return
 
     for item in contents:
-        if item["type"] == "file":
+        if item["type"] == "dir":
+            if item["name"] in IGNORE_DIRS:
+                continue
+            scan_directory(item["url"])
+
+        elif item["type"] == "file":
+            if not any(item["name"].endswith(ext) for ext in VALID_EXT):
+                continue
+
             text = fetch_file(item["download_url"])
             found = detect_frameworks(text)
             for tech in found:
                 framework_counts[tech] = framework_counts.get(tech, 0) + 1
+
+# Obtener repos
+repos = requests.get(
+    f"https://api.github.com/users/{USER}/repos?per_page=100",
+    headers=headers
+).json()
+
+for repo in repos:
+    print(f"Analizando repo: {repo['name']}")
+    root_url = repo["contents_url"].replace("{+path}", "")
+    scan_directory(root_url)
 
 os.makedirs("output", exist_ok=True)
 
@@ -58,14 +90,21 @@ with open("output/frameworks.json", "w") as f:
 
 with open("output/frameworks.md", "w") as f:
     f.write("## Frameworks detectados automáticamente\n\n")
-    for tech, count in sorted_fw.items():
-        f.write(f"- **{tech}**: {count} repos\n")
+    if not sorted_fw:
+        f.write("No se detectaron frameworks.\n")
+    else:
+        for tech, count in sorted_fw.items():
+            f.write(f"- **{tech}**: {count} repos\n")
+
+plt.figure(figsize=(12, 6))
 
 if sorted_fw:
-    plt.figure(figsize=(12, 6))
-    plt.bar(sorted_fw.keys(), sorted_fw.values(), color="purple")
-    plt.title("Frameworks detectados")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig("output/frameworks.png")
-    plt.close()
+    plt.bar(sorted_fw.keys(), sorted_fw.values(), color="green")
+else:
+    plt.text(0.5, 0.5, "No se detectaron frameworks", ha="center", va="center", fontsize=14)
+
+plt.title("Frameworks detectados")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig("output/frameworks.png")
+plt.close()
