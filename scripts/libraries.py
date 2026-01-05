@@ -1,66 +1,199 @@
-import requests
 import os
 import re
-import json
+import requests
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 USER = "JulioArturoRodriguez"
 
-TOOLS = {
-    "Vite": r"vite",
-    "Maven": r"maven",
-    "Spring Initializr": r"spring-initializr",
-    "Visual Studio Code": r"vscode|visual studio code",
-    "IntelliJ IDEA": r"intellij",
-    "Eclipse": r"eclipse",
-    "NetBeans": r"netbeans",
-    "CodeBlocks": r"code::blocks"
+LIBRARIES = {
+    "JWT": r"(jsonwebtoken|jwt)",
+    "Bcrypt": r"(bcrypt)",
+    "Mongoose": r"(mongoose)",
+
+    "NumPy": r"(import\s+numpy|from\s+numpy)",
+    "Pandas": r"(import\s+pandas|from\s+pandas)",
+    "Matplotlib": r"(import\s+matplotlib|from\s+matplotlib)",
+
+    "Lombok": r"(lombok)"
 }
 
-def fetch_file(url):
-    r = requests.get(url)
-    return r.text if r.status_code == 200 else ""
+EXCLUDED_EXT = {
+    ".pdf", ".doc", ".docx",
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp",
+    ".mp4", ".mov", ".avi",
+    ".zip", ".rar", ".tar", ".gz",
+    ".exe", ".dll", ".so",
+    ".mp3", ".wav",
+    ".log",
+    ".min.js",
+    ".ipynb"
+}
 
-def detect_tools(text):
+MAX_FILE_SIZE = 1_000_000
+
+TOKEN = os.getenv("GH_TOKEN")
+headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+
+IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github", ".idea", ".vscode", "__pycache__"}
+
+visited_dirs = set()
+library_counts = {}
+
+
+def fetch_directory(url: str):
+    all_items = []
+    page = 1
+    while True:
+        paged_url = f"{url}?page={page}&per_page=100"
+        try:
+            resp = requests.get(paged_url, headers=headers, timeout=15)
+        except:
+            break
+
+        if resp.status_code != 200:
+            break
+
+        data = resp.json()
+        if not isinstance(data, list) or not data:
+            break
+
+        all_items.extend(data)
+        page += 1
+        if page > 100:
+            break
+
+    return all_items
+
+
+def build_raw_url(item: dict):
+    if item.get("download_url"):
+        return item["download_url"]
+
+    html_url = item.get("html_url")
+    if not html_url:
+        return None
+
+    return html_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+
+
+def fetch_file(url: str):
+    try:
+        resp = requests.get(url, headers=headers, timeout=20)
+        if resp.status_code != 200:
+            return ""
+        try:
+            return resp.text
+        except UnicodeDecodeError:
+            return resp.content.decode("latin-1", errors="ignore")
+    except:
+        return ""
+
+
+def detect_libraries(text: str):
     found = []
-    for tech, pattern in TOOLS.items():
-        if re.search(pattern, text, re.IGNORECASE):
-            found.append(tech)
+    for lib, pattern in LIBRARIES.items():
+        if re.search(pattern, text, re.IGNORECASE | re.MULTILINE):
+            found.append(lib)
     return found
 
-repos = requests.get(f"https://api.github.com/users/{USER}/repos").json()
 
-tools_counts = {}
+def scan_directory(url: str):
+    if url in visited_dirs:
+        return
+    visited_dirs.add(url)
 
-for repo in repos:
-    contents = requests.get(repo["contents_url"].replace("{+path}", "")).json()
-    if isinstance(contents, dict):
-        continue
+    contents = fetch_directory(url)
 
     for item in contents:
-        if item["type"] == "file":
-            text = fetch_file(item["download_url"])
-            found = detect_tools(text)
-            for tech in found:
-                tools_counts[tech] = tools_counts.get(tech, 0) + 1
+        try:
+            if item["type"] == "dir":
+                if item["name"] in IGNORE_DIRS:
+                    continue
+                scan_directory(item["url"])
 
-os.makedirs("output", exist_ok=True)
+            elif item["type"] == "file":
+                ext = os.path.splitext(item["name"])[1].lower()
 
-sorted_tools = dict(sorted(tools_counts.items(), key=lambda x: x[1], reverse=True))
+                if ext in EXCLUDED_EXT:
+                    continue
 
-with open("output/tools.json", "w") as f:
-    json.dump(sorted_tools, f, indent=4)
+                size = item.get("size", 0)
+                if isinstance(size, int) and size > MAX_FILE_SIZE:
+                    continue
 
-with open("output/tools.md", "w") as f:
-    f.write("## Herramientas detectadas automáticamente\n\n")
-    for tech, count in sorted_tools.items():
-        f.write(f"- **{tech}**: {count} repos\n")
+                raw_url = build_raw_url(item)
+                if not raw_url:
+                    continue
 
-if sorted_tools:
-    plt.figure(figsize=(12, 6))
-    plt.bar(sorted_tools.keys(), sorted_tools.values(), color="brown")
-    plt.title("Herramientas detectadas")
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    plt.savefig("output/tools.png")
-    plt.close()
+                text = fetch_file(raw_url)
+                if not text:
+                    continue
+
+                found = detect_libraries(text)
+                for lib in found:
+                    library_counts[lib] = library_counts.get(lib, 0) + 1
+
+        except:
+            continue
+
+
+def main():
+    print(f"Obteniendo repositorios de {USER}...")
+    try:
+        resp = requests.get(
+            f"https://api.github.com/users/{USER}/repos?per_page=100",
+            headers=headers,
+            timeout=20
+        )
+    except:
+        return
+
+    if resp.status_code != 200:
+        return
+
+    repos = resp.json()
+    if not isinstance(repos, list):
+        return
+
+    for repo in repos:
+        name = repo.get("name", "SIN NOMBRE")
+        print(f"Analizando repo: {name}")
+        contents_url = repo.get("contents_url")
+        if not contents_url:
+            continue
+        root_url = contents_url.replace("{+path}", "")
+        scan_directory(root_url)
+
+    os.makedirs("output", exist_ok=True)
+
+    sorted_libs = dict(sorted(library_counts.items(), key=lambda x: x[1], reverse=True))
+    total = sum(sorted_libs.values())
+
+    with open("output/libraries.md", "w", encoding="utf-8") as f:
+        f.write("## 📚 Librerías detectadas\n\n")
+        if total == 0:
+            f.write("No se detectaron librerías.\n")
+        else:
+            for lib, count in sorted_libs.items():
+                percent = (count / total) * 100 if total > 0 else 0
+                f.write(f"- **{lib}**: {count} apariciones (~{percent:.1f}%)\n")
+
+    labels = list(sorted_libs.keys())
+    values = list(sorted_libs.values())
+    percents = [(v / total) * 100 for v in values] if total > 0 else []
+
+    if labels:
+        height = max(6, len(labels) * 0.5)
+        plt.figure(figsize=(14, height))
+        plt.barh(labels, percents, color="blue")
+        plt.title("Proporción de Librerías Detectadas (%)")
+        plt.xlabel("Porcentaje del código analizado")
+        plt.tight_layout()
+        plt.savefig("output/libraries.png")
+        plt.close()
+
+
+if __name__ == "__main__":
+    main()
