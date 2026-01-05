@@ -305,3 +305,4 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Herramientas
 ![Herramientas](output/tools.png)
 <!-- AUTO-TOOLS -->
+.
