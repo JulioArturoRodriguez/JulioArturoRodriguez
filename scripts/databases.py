@@ -12,24 +12,31 @@ DATABASES = {
     "SQLite": r"sqlite"
 }
 
-# === TOKEN ===
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-# === Obtener todos los repos del usuario ===
-repos = requests.get(
-    f"https://api.github.com/users/{USER}/repos?per_page=100",
-    headers=headers
-).json()
+visited = set()  # evita bucles infinitos
 
-db_counts = {}
+def fetch_file(url):
+    r = requests.get(url, headers=headers)
+    return r.text if r.status_code == 200 else ""
 
-# === Función recursiva para recorrer carpetas ===
+def detect_databases(text):
+    found = []
+    for tech, pattern in DATABASES.items():
+        if re.search(pattern, text, re.IGNORECASE):
+            found.append(tech)
+    return found
+
 def scan_directory(url):
+    if url in visited:
+        return
+    visited.add(url)
+
     contents = requests.get(url, headers=headers).json()
 
     if isinstance(contents, dict):
-        return  # error o carpeta vacía
+        return
 
     for item in contents:
         if item["type"] == "file":
@@ -39,47 +46,36 @@ def scan_directory(url):
                 db_counts[tech] = db_counts.get(tech, 0) + 1
 
         elif item["type"] == "dir":
-            scan_directory(item["url"])  # recursión
+            scan_directory(item["url"])
 
-# === Descargar archivo ===
-def fetch_file(url):
-    r = requests.get(url, headers=headers)
-    return r.text if r.status_code == 200 else ""
+# === Obtener repos ===
+repos = requests.get(
+    f"https://api.github.com/users/{USER}/repos?per_page=100",
+    headers=headers
+).json()
 
-# === Detectar bases de datos ===
-def detect_databases(text):
-    found = []
-    for tech, pattern in DATABASES.items():
-        if re.search(pattern, text, re.IGNORECASE):
-            found.append(tech)
-    return found
+db_counts = {}
 
-# === Recorrer todos los repos ===
 for repo in repos:
     print(f"Analizando repo: {repo['name']}")
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
-# === Crear carpeta output ===
 os.makedirs("output", exist_ok=True)
 
-# === Ordenar resultados ===
 sorted_db = dict(sorted(db_counts.items(), key=lambda x: x[1], reverse=True))
 
-# === Guardar JSON ===
 with open("output/databases.json", "w") as f:
     json.dump(sorted_db, f, indent=4)
 
-# === Guardar Markdown ===
 with open("output/databases.md", "w") as f:
     f.write("## Bases de datos detectadas automáticamente\n\n")
     if not sorted_db:
-        f.write("No se detectaron bases de datos en los repositorios.\n")
+        f.write("No se detectaron bases de datos.\n")
     else:
         for tech, count in sorted_db.items():
             f.write(f"- **{tech}**: {count} repos\n")
 
-# === Generar PNG SIEMPRE ===
 plt.figure(figsize=(12, 6))
 
 if sorted_db:
