@@ -23,7 +23,6 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
-        # === FRONT-END MODERNO ===
         "React": r"(import\s+React\b|from\s+['\"]react['\"]|import\s+.*\s+from\s+['\"]react['\"])",
         "ReactDOM": r"(from\s+['\"]react-dom|import\s+ReactDOM)",
         "JSX/TSX": r"<[A-Za-z][A-Za-z0-9]*[\s/>]",
@@ -33,12 +32,10 @@ FRAMEWORKS_BY_LANG = {
         "React-Bootstrap": r"(from\s+['\"]react-bootstrap['\"]|import\s+.*\s+from\s+['\"]react-bootstrap['\"])",
         "Axios": r"(from\s+['\"]axios['\"]|require\(['\"]axios['\"]\))",
 
-        # === FRONT-END VANILLA ===
         "HTML5": r"<!DOCTYPE html>|<html",
         "CSS3": r"{\s*[^}]*}|@media|@import",
         "JavaScript Vanilla": r"document\.querySelector|addEventListener|localStorage|fetch\(",
 
-        # === BACK-END ===
         "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
         "Node.js": r"(require\(|module\.exports\b)",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
@@ -73,7 +70,8 @@ FRAMEWORKS_BY_LANG = {
         "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
         "Spring Data JPA": r"@Entity|org\.springframework\.data\.jpa",
         "Hibernate": r"@Entity|org\.hibernate",
-        "Lombok": r"@(Data|Getter|Setter|Builder|NoArgsConstructor|AllArgsConstructor)|lombok\."
+        "Lombok": r"@(Data|Getter|Setter|Builder|NoArgsConstructor|AllArgsConstructor)|lombok\.",
+        "Spring Properties": r"spring\.(datasource|jpa|sql)\."
     },
 
     "php": {
@@ -85,7 +83,6 @@ FRAMEWORKS_BY_LANG = {
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-# === ANALIZAR TODOS LOS ARCHIVOS ===
 VALID_EXT = None
 
 IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
@@ -116,8 +113,7 @@ def fetch_directory(url):
         all_items.extend(data)
         page += 1
 
-        # Seguridad anti-loop
-        if page > 10:
+        if page > 20:
             break
 
     return all_items
@@ -154,9 +150,6 @@ def scan_directory(url):
         elif item["type"] == "file":
             ext = os.path.splitext(item["name"])[1]
 
-            if VALID_EXT and ext not in VALID_EXT:
-                continue
-
             text = fetch_file(item["download_url"])
             found = detect_frameworks(text, ext)
 
@@ -164,7 +157,6 @@ def scan_directory(url):
                 framework_counts[tech] = framework_counts.get(tech, 0) + 1
 
 
-# === OBTENER REPOS ===
 repos = requests.get(
     f"https://api.github.com/users/{USER}/repos?per_page=100",
     headers=headers
@@ -175,7 +167,6 @@ for repo in repos:
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
-# === GUARDAR RESULTADOS ===
 os.makedirs("output", exist_ok=True)
 
 sorted_fw = dict(sorted(framework_counts.items(), key=lambda x: x[1], reverse=True))
@@ -191,7 +182,6 @@ with open("output/frameworks.md", "w") as f:
         for tech, count in sorted_fw.items():
             f.write(f"- **{tech}**: {count} apariciones en código\n")
 
-# === GENERAR IMÁGENES ===
 def chunk_list(data, size):
     items = list(data.items())
     for i in range(0, len(items), size):
