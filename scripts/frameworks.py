@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 USER = "JulioArturoRodriguez"
 
-# === FRAMEWORKS DETECTADOS SOLO POR CÓDIGO REAL ===
+# === FRAMEWORKS DETECTADOS ===
 FRAMEWORKS_BY_LANG = {
     "py": {
         "NumPy": r"\bimport\s+numpy\b|\bfrom\s+numpy\b",
@@ -86,24 +86,40 @@ TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 # === ANALIZAR TODOS LOS ARCHIVOS ===
-VALID_EXT = None  # <--- AHORA ANALIZA TODO
+VALID_EXT = None
 
 IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 
 visited = set()
 framework_counts = {}
 
+# === PAGINACIÓN DE GITHUB API ===
+def fetch_directory(url):
+    all_items = []
+    page = 1
+
+    while True:
+        paged_url = f"{url}?page={page}&per_page=100"
+        response = requests.get(paged_url, headers=headers).json()
+
+        if not isinstance(response, list) or len(response) == 0:
+            break
+
+        all_items.extend(response)
+        page += 1
+
+    return all_items
+
 def fetch_file(url):
     r = requests.get(url, headers=headers)
     return r.text if r.status_code == 200 else ""
 
 def detect_frameworks(text, ext):
-    found = []
     lang = ext.replace(".", "") if ext else "js"
-
     if lang not in FRAMEWORKS_BY_LANG:
         lang = "js"
 
+    found = []
     for tech, pattern in FRAMEWORKS_BY_LANG[lang].items():
         if re.search(pattern, text, re.IGNORECASE | re.MULTILINE):
             found.append(tech)
@@ -115,10 +131,7 @@ def scan_directory(url):
         return
     visited.add(url)
 
-    contents = requests.get(url, headers=headers).json()
-
-    if isinstance(contents, dict):
-        return
+    contents = fetch_directory(url)
 
     for item in contents:
         if item["type"] == "dir":
@@ -129,7 +142,6 @@ def scan_directory(url):
         elif item["type"] == "file":
             ext = os.path.splitext(item["name"])[1]
 
-            # Si VALID_EXT es None, analiza todo
             if VALID_EXT and ext not in VALID_EXT:
                 continue
 
@@ -167,8 +179,7 @@ with open("output/frameworks.md", "w") as f:
         for tech, count in sorted_fw.items():
             f.write(f"- **{tech}**: {count} apariciones en código\n")
 
-# === GENERAR IMÁGENES EN BARRAS (divididas automáticamente) ===
-
+# === GENERAR IMÁGENES ===
 def chunk_list(data, size):
     items = list(data.items())
     for i in range(0, len(items), size):
