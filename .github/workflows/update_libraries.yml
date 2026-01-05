@@ -16,8 +16,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          ref: main            
-          fetch-depth: 0       
+          ref: main              # 👈 RAMA CORRECTA
+          fetch-depth: 0         # 👈 NECESARIO PARA PULL
           persist-credentials: false
           clean: false
 
@@ -30,6 +30,8 @@ jobs:
         run: pip install matplotlib requests
 
       - name: Run library analysis
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/libraries.py
 
       - name: Update README with library stats
@@ -45,7 +47,18 @@ jobs:
 
       - name: Commit and push results
         run: |
-          git add output/libraries.png output/libraries.md README.md
+          # Seguridad: solo agregar si existen
+          if [ -f output/libraries.png ]; then
+            git add output/libraries.png
+          fi
+
+          if [ -f output/libraries.md ]; then
+            git add output/libraries.md
+          fi
+
+          git add README.md
+
           git commit -m "Update library stats" || echo "No changes to commit"
-          git pull --rebase origin main     # 👈 AHORA FUNCIONA
+
+          git pull --rebase origin main || true
           git push origin main || true
