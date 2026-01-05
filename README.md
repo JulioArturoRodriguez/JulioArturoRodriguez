@@ -288,6 +288,11 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Bases de datos
 ![Bases de datos](output/database_stats.png)
 <!-- AUTO-DATABASES -->
+## Bases de datos detectadas automáticamente
+
+- **MySQL**: 158 repos
+- **MongoDB**: 141 repos
+- **SQLite**: 37 repos
 
 
 ## 📊 Machine Learning / Deep Learning
