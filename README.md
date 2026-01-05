@@ -259,6 +259,14 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 <!-- AUTO-LANGUAGES -->
 ## 📊 Lenguajes más usados (actualizado automáticamente)
 
+- **JavaScript**: 65.6%
+- **CSS**: 14.77%
+- **Java**: 10.09%
+- **Python**: 7.72%
+- **HTML**: 1.69%
+- **Dockerfile**: 0.13%
+## 📊 Lenguajes más usados (actualizado automáticamente)
+
 - **JavaScript**: 65.87%
 - **CSS**: 14.83%
 - **Java**: 10.13%
