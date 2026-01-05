@@ -314,11 +314,6 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 - **SQLite**: 37 repos
 
 
-## 📊 Machine Learning / Deep Learning
-![Machine Learning](output/ml_stats.png)
-<!-- AUTO-ML -->
-
-
 ## 📊 Testing
 ![Testing](output/testing.png)
 <!-- AUTO-TESTING -->
