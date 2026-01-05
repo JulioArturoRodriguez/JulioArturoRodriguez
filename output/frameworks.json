@@ -1,8 +1,0 @@
-{
-    "Spring Data JPA": 7,
-    "Spring Web": 5,
-    "Spring Security": 5,
-    "Hibernate": 3,
-    "Spring Boot": 1,
-    "Lombok": 1
-}
