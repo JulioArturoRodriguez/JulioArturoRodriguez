@@ -23,17 +23,14 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
-        # Cubre: import ... from "react" / require("react")
-        "React": r"(from\s+['\"]react['\"]|require\(['\"]react['\"]\))",
+        "React": r"(from\s+['\"]react['\"]|import\s+ReactDOM|import\s+.*\s+from\s+['\"]react['\"])",
         "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"])",
         "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
-        # Cubre: import express from "express" / const express = require("express")
         "Express": r"(import\s+.*\s+from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
-        # Node.js genérico: require, module.exports
         "Node.js": r"(require\(|module\.exports\b)",
-        "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
-        "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\))",
+        "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\)|import\s+.*\s+from\s+['\"]jsonwebtoken['\"])",
+        "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\)|from\s+['\"]bcryptjs['\"]|require\(['\"]bcryptjs['\"]\))",
         "Mongoose": r"(from\s+['\"]mongoose['\"]|require\(['\"]mongoose['\"]\))"
     },
 
@@ -45,12 +42,11 @@ FRAMEWORKS_BY_LANG = {
         "Express": r"(from\s+['\"]express['\"])",
         "Node.js": r"(import\s+.*\s+from\s+['\"]fs['\"]|import\s+.*\s+from\s+['\"]path['\"])",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"])",
-        "Bcrypt": r"(from\s+['\"]bcrypt['\"])",
+        "Bcrypt": r"(from\s+['\"]bcrypt['\"]|from\s+['\"]bcryptjs['\"])",
         "Mongoose": r"(from\s+['\"]mongoose['\"])"
     },
 
     "java": {
-        # Anotaciones típicas de Spring Boot y Web
         "Spring Boot": r"@SpringBootApplication|org\.springframework\.boot",
         "Spring Web": r"@RestController|@Controller|org\.springframework\.web",
         "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
@@ -60,7 +56,6 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "php": {
-        # Laravel: namespaces y uso de Illuminate
         "Laravel": r"(use\s+Illuminate\\|namespace\s+App\\)"
     }
 }
@@ -148,18 +143,36 @@ with open("output/frameworks.md", "w") as f:
         for tech, count in sorted_fw.items():
             f.write(f"- **{tech}**: {count} apariciones en código\n")
 
-# === GENERAR IMAGEN EN BARRAS ===
-plt.figure(figsize=(12, 6))
+# === GENERAR IMÁGENES EN BARRAS (divididas automáticamente) ===
 
-if sorted_fw:
-    plt.bar(sorted_fw.keys(), sorted_fw.values(), color="green")
-else:
+def chunk_list(data, size):
+    items = list(data.items())
+    for i in range(0, len(items), size):
+        yield items[i:i + size]
+
+if not sorted_fw:
+    plt.figure(figsize=(10, 4))
     plt.text(0.5, 0.5, "No se detectaron frameworks",
              ha="center", va="center", fontsize=14)
+    plt.savefig("output/frameworks_0.png")
+    plt.close()
+else:
+    chunk_size = 10  # frameworks por imagen
+    index = 0
 
-plt.title("Frameworks detectados (solo código real)")
-plt.xticks(rotation=45)
-plt.tight_layout()
+    for chunk in chunk_list(sorted_fw, chunk_size):
+        labels = [x[0] for x in chunk]
+        values = [x[1] for x in chunk]
 
-plt.savefig("output/frameworks.png")
-plt.close()
+        height = max(6, len(labels) * 0.6)
+
+        plt.figure(figsize=(14, height))
+        plt.barh(labels, values, color="green")
+        plt.title(f"Frameworks detectados (parte {index + 1})")
+        plt.xlabel("Cantidad de apariciones")
+        plt.tight_layout()
+
+        plt.savefig(f"output/frameworks_{index}.png")
+        plt.close()
+
+        index += 1
