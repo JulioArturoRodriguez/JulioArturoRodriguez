@@ -1,4 +1,3 @@
-
 import requests
 import os
 import re
@@ -10,7 +9,7 @@ import matplotlib.pyplot as plt
 
 USER = "JulioArturoRodriguez"
 
-# === SOLO FRAMEWORKS (Front + Back + ML/DL) ===
+# === FRAMEWORKS REALES (Front + Back + ML/DL) ===
 FRAMEWORKS = {
     # FRONT-END
     "React": r"(import\s+React\b|from\s+['\"]react['\"])",
@@ -33,6 +32,9 @@ FRAMEWORKS = {
     "Scikit-Learn": r"(import\s+sklearn|from\s+sklearn)"
 }
 
+# === EXTENSIONES PERMITIDAS (OPTIMIZACIÓN) ===
+VALID_EXT = {".js", ".jsx", ".ts", ".tsx", ".java", ".py"}
+
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
@@ -54,7 +56,7 @@ def fetch_directory(url):
             break
         all_items.extend(data)
         page += 1
-        if page > 200:
+        if page > 50:  # OPTIMIZACIÓN: límite razonable
             break
     return all_items
 
@@ -83,6 +85,10 @@ def scan_directory(url):
             scan_directory(item["url"])
 
         elif item["type"] == "file":
+            ext = os.path.splitext(item["name"])[1]
+            if ext not in VALID_EXT:
+                continue  # OPTIMIZACIÓN: ignorar archivos inútiles
+
             download_url = item.get("download_url")
             if not download_url:
                 download_url = item["html_url"].replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
@@ -105,7 +111,7 @@ for repo in repos:
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
-# === RUTAS MANUALES ===
+# === RUTAS MANUALES (SE MANTIENEN TODAS) ===
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/DESARROLLADOR-JAVA-SPRING-BOOT-TALENTO-TECH/contents/src/main/java/com/techlab/demo")
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/DESARROLLADOR-JAVA-SPRING-BOOT-TALENTO-TECH/contents/src/main/resources")
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez/contents")
