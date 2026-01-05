@@ -29,6 +29,8 @@ jobs:
         run: pip install matplotlib requests
 
       - name: Run database analysis
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: python scripts/databases.py
 
       - name: Update README with database stats
