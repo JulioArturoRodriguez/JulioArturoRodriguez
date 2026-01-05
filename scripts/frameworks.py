@@ -23,29 +23,42 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
-        # FRONT-END
-        "React": r"(from\s+['\"]react['\"]|import\s+ReactDOM|import\s+.*\s+from\s+['\"]react['\"])",
+        # === FRONT-END MODERNO ===
+        "React": r"(import\s+React\b|from\s+['\"]react['\"]|import\s+.*\s+from\s+['\"]react['\"])",
+        "ReactDOM": r"(from\s+['\"]react-dom|import\s+ReactDOM)",
+        "JSX/TSX": r"<[A-Za-z][A-Za-z0-9]*[\s/>]",
         "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"]|import\s+styled\s+from\s+['\"]styled-components['\"])",
-        "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"]|import\s+['\"]bootstrap/)",
+        "Bootstrap": r"(import\s+['\"]bootstrap|from\s+['\"]bootstrap['\"])",
+        "React-Bootstrap": r"(from\s+['\"]react-bootstrap['\"]|import\s+.*\s+from\s+['\"]react-bootstrap['\"])",
         "Axios": r"(from\s+['\"]axios['\"]|require\(['\"]axios['\"]\))",
-        "JSX/TSX": r"<[A-Za-z]+[\s/>]",
 
-        # BACK-END
-        "Express": r"(import\s+.*\s+from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
+        # === FRONT-END VANILLA ===
+        "HTML5": r"<!DOCTYPE html>|<html",
+        "CSS3": r"{\s*[^}]*}|@media|@import",
+        "JavaScript Vanilla": r"document\.querySelector|addEventListener|localStorage|fetch\(",
+
+        # === BACK-END ===
+        "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
         "Node.js": r"(require\(|module\.exports\b)",
-        "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\)|import\s+.*\s+from\s+['\"]jsonwebtoken['\"])",
+        "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
         "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\)|from\s+['\"]bcryptjs['\"]|require\(['\"]bcryptjs['\"]\))",
         "Mongoose": r"(from\s+['\"]mongoose['\"]|require\(['\"]mongoose['\"]\))"
     },
 
     "ts": {
         "React": r"(from\s+['\"]react['\"])",
+        "ReactDOM": r"(from\s+['\"]react-dom)",
+        "JSX/TSX": r"<[A-Za-z][A-Za-z0-9]*[\s/>]",
         "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"])",
         "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
+        "React-Bootstrap": r"(from\s+['\"]react-bootstrap['\"])",
         "Axios": r"(from\s+['\"]axios['\"])",
-        "JSX/TSX": r"<[A-Za-z]+[\s/>]",
+
+        "HTML5": r"<!DOCTYPE html>|<html",
+        "CSS3": r"{\s*[^}]*}|@media|@import",
+        "JavaScript Vanilla": r"document\.querySelector|addEventListener|localStorage|fetch\(",
 
         "Express": r"(from\s+['\"]express['\"])",
         "Node.js": r"(import\s+.*\s+from\s+['\"]fs['\"]|import\s+.*\s+from\s+['\"]path['\"])",
@@ -72,8 +85,8 @@ FRAMEWORKS_BY_LANG = {
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-# === EXTENSIONES QUE SE ANALIZAN ===
-VALID_EXT = (".py", ".js", ".jsx", ".ts", ".tsx", ".java", ".php")
+# === ANALIZAR TODOS LOS ARCHIVOS ===
+VALID_EXT = None  # <--- AHORA ANALIZA TODO
 
 IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 
@@ -86,12 +99,13 @@ def fetch_file(url):
 
 def detect_frameworks(text, ext):
     found = []
-    lang = ext.replace(".", "")
+    lang = ext.replace(".", "") if ext else "js"
+
     if lang not in FRAMEWORKS_BY_LANG:
-        return found
+        lang = "js"
 
     for tech, pattern in FRAMEWORKS_BY_LANG[lang].items():
-        if re.search(pattern, text):
+        if re.search(pattern, text, re.IGNORECASE | re.MULTILINE):
             found.append(tech)
 
     return found
@@ -114,7 +128,9 @@ def scan_directory(url):
 
         elif item["type"] == "file":
             ext = os.path.splitext(item["name"])[1]
-            if ext not in VALID_EXT:
+
+            # Si VALID_EXT es None, analiza todo
+            if VALID_EXT and ext not in VALID_EXT:
                 continue
 
             text = fetch_file(item["download_url"])
