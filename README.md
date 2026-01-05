@@ -280,6 +280,14 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 <!-- AUTO-FRAMEWORKS -->
 ## Frameworks detectados automáticamente (solo código real)
 
+- **Spring Data JPA**: 7 apariciones en código
+- **Spring Web**: 5 apariciones en código
+- **Spring Security**: 5 apariciones en código
+- **Hibernate**: 3 apariciones en código
+- **Spring Boot**: 1 apariciones en código
+- **Lombok**: 1 apariciones en código
+## Frameworks detectados automáticamente (solo código real)
+
 No se detectaron frameworks.
 ## Frameworks detectados automáticamente (solo código real)
 
