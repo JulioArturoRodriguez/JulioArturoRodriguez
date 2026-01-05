@@ -1,0 +1,11 @@
+{
+    "React": 200,
+    "Express": 82,
+    "Vue": 61,
+    "Flask": 51,
+    "Django": 48,
+    "Angular": 47,
+    "Spring": 30,
+    "Laravel": 27,
+    "FastAPI": 6
+}
