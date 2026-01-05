@@ -23,36 +23,36 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
-        "React": r"(import\s+React\b|from\s+['\"]react['\"])",
+        "React": r"(from\s+['\"]react['\"])",
         "React Router": r"(from\s+['\"]react-router['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"])",
         "Bootstrap": r"(from\s+['\"]bootstrap['\"])",
-        "Express": r"(require\(['\"]express['\"]\)|from\s+['\"]express['\"])",
-        "Node.js": r"\brequire\(|module\.exports\b",
-        "JWT": r"(require\(['\"]jsonwebtoken['\"]\)|from\s+['\"]jsonwebtoken['\"])",
-        "Bcrypt": r"(require\(['\"]bcrypt['\"]\)|from\s+['\"]bcrypt['\"])",
-        "Mongoose": r"(require\(['\"]mongoose['\"]\)|from\s+['\"]mongoose['\"])"
+        "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
+        "Node.js": r"(require\(|module\.exports\b|import\s+.*from\s+['\"]fs['\"])",
+        "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
+        "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\))",
+        "Mongoose": r"(from\s+['\"]mongoose['\"]|require\(['\"]mongoose['\"]\))"
     },
 
     "ts": {
-        "React": r"(import\s+React\b|from\s+['\"]react['\"])",
+        "React": r"(from\s+['\"]react['\"])",
         "React Router": r"(from\s+['\"]react-router['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"])",
         "Bootstrap": r"(from\s+['\"]bootstrap['\"])",
         "Express": r"(from\s+['\"]express['\"])",
-        "Node.js": r"\bimport\s+\*?\s?as\s+fs\b",
+        "Node.js": r"(import\s+.*from\s+['\"]fs['\"])",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"])",
         "Bcrypt": r"(from\s+['\"]bcrypt['\"])",
         "Mongoose": r"(from\s+['\"]mongoose['\"])"
     },
 
     "java": {
-        "Spring Boot": r"org\.springframework\.boot",
-        "Spring Web": r"org\.springframework\.web",
-        "Spring Security": r"org\.springframework\.security",
-        "Spring Data JPA": r"org\.springframework\.data\.jpa",
-        "Hibernate": r"org\.hibernate",
-        "Lombok": r"lombok\."
+        "Spring Boot": r"@SpringBootApplication|org\.springframework\.boot",
+        "Spring Web": r"@RestController|org\.springframework\.web",
+        "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
+        "Spring Data JPA": r"@Entity|org\.springframework\.data\.jpa",
+        "Hibernate": r"@Entity|org\.hibernate",
+        "Lombok": r"@Data|@Getter|@Setter|lombok\."
     },
 
     "php": {
