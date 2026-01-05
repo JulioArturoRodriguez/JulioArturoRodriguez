@@ -284,6 +284,9 @@ No se detectaron frameworks.
 ## Frameworks detectados automáticamente (solo código real)
 
 No se detectaron frameworks.
+## Frameworks detectados automáticamente (solo código real)
+
+No se detectaron frameworks.
 ## Frameworks detectados automáticamente
 
 - **React**: 200 repos
