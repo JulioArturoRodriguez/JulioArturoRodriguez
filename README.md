@@ -278,6 +278,9 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Frameworks
 ![Frameworks](output/framework_stats.png)
 <!-- AUTO-FRAMEWORKS -->
+## Frameworks detectados automáticamente (solo código real)
+
+No se detectaron frameworks.
 ## Frameworks detectados automáticamente
 
 - **React**: 200 repos
