@@ -13,46 +13,46 @@ USER = "JulioArturoRodriguez"
 # === FRAMEWORKS DETECTADOS SOLO POR CÓDIGO REAL ===
 FRAMEWORKS_BY_LANG = {
     "py": {
-        "NumPy": r"(import\s+numpy\b|from\s+numpy\b)",
-        "Pandas": r"(import\s+pandas\b|from\s+pandas\b)",
-        "Matplotlib": r"(import\s+matplotlib\b|from\s+matplotlib\b)",
-        "Scikit-Learn": r"(import\s+sklearn\b|from\s+sklearn\b)",
-        "TensorFlow": r"(import\s+tensorflow\b|from\s+tensorflow\b)",
-        "Keras": r"(import\s+keras\b|from\s+keras\b)",
-        "PyTorch": r"(import\s+torch\b|from\s+torch\b)"
+        "NumPy": r"\bimport\s+numpy\b|\bfrom\s+numpy\b",
+        "Pandas": r"\bimport\s+pandas\b|\bfrom\s+pandas\b",
+        "Matplotlib": r"\bimport\s+matplotlib\b|\bfrom\s+matplotlib\b",
+        "Scikit-Learn": r"\bimport\s+sklearn\b|\bfrom\s+sklearn\b",
+        "TensorFlow": r"\bimport\s+tensorflow\b|\bfrom\s+tensorflow\b",
+        "Keras": r"\bimport\s+keras\b|\bfrom\s+keras\b",
+        "PyTorch": r"\bimport\s+torch\b|\bfrom\s+torch\b"
     },
 
     "js": {
-        "React": r"(from\s+['\"]react['\"])",
-        "React Router": r"(from\s+['\"]react-router['\"])",
-        "Styled Components": r"(from\s+['\"]styled-components['\"])",
-        "Bootstrap": r"(from\s+['\"]bootstrap['\"])",
+        "React": r"from\s+['\"]react['\"]",
+        "React Router": r"from\s+['\"]react-router['\"]",
+        "Styled Components": r"from\s+['\"]styled-components['\"]",
+        "Bootstrap": r"from\s+['\"]bootstrap['\"]",
         "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
-        "Node.js": r"(require\(|module\.exports\b|import\s+.*from\s+['\"]fs['\"])",
+        "Node.js": r"(require\(|module\.exports\b)",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
         "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\))",
         "Mongoose": r"(from\s+['\"]mongoose['\"]|require\(['\"]mongoose['\"]\))"
     },
 
     "ts": {
-        "React": r"(from\s+['\"]react['\"])",
-        "React Router": r"(from\s+['\"]react-router['\"])",
-        "Styled Components": r"(from\s+['\"]styled-components['\"])",
-        "Bootstrap": r"(from\s+['\"]bootstrap['\"])",
-        "Express": r"(from\s+['\"]express['\"])",
-        "Node.js": r"(import\s+.*from\s+['\"]fs['\"])",
-        "JWT": r"(from\s+['\"]jsonwebtoken['\"])",
-        "Bcrypt": r"(from\s+['\"]bcrypt['\"])",
-        "Mongoose": r"(from\s+['\"]mongoose['\"])"
+        "React": r"from\s+['\"]react['\"]",
+        "React Router": r"from\s+['\"]react-router['\"]",
+        "Styled Components": r"from\s+['\"]styled-components['\"]",
+        "Bootstrap": r"from\s+['\"]bootstrap['\"]",
+        "Express": r"from\s+['\"]express['\"]",
+        "Node.js": r"import\s+.*from\s+['\"]fs['\"]",
+        "JWT": r"from\s+['\"]jsonwebtoken['\"]",
+        "Bcrypt": r"from\s+['\"]bcrypt['\"]",
+        "Mongoose": r"from\s+['\"]mongoose['\"]"
     },
 
     "java": {
-        "Spring Boot": r"@SpringBootApplication|org\.springframework\.boot",
-        "Spring Web": r"@RestController|org\.springframework\.web",
-        "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
-        "Spring Data JPA": r"@Entity|org\.springframework\.data\.jpa",
-        "Hibernate": r"@Entity|org\.hibernate",
-        "Lombok": r"@Data|@Getter|@Setter|lombok\."
+        "Spring Boot": r"@SpringBootApplication",
+        "Spring Web": r"@RestController",
+        "Spring Security": r"@EnableWebSecurity",
+        "Spring Data JPA": r"@Entity",
+        "Hibernate": r"@Entity",
+        "Lombok": r"@(Data|Getter|Setter|Builder)"
     },
 
     "php": {
