@@ -291,7 +291,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 - **React Router**: 96 apariciones (~11.0%)
 
 ## 📊 Librerías
-![Librerías](output/library_stats.png)
+![Librerías](output/libraries.png)
 <!-- AUTO-LIBRARIES -->
 ## 📚 Librerías detectadas
 
