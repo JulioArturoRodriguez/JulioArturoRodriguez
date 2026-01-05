@@ -15,7 +15,17 @@ DATABASES = {
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
-visited = set()  # evita bucles infinitos
+# Extensiones que SÍ analizamos
+VALID_EXT = (
+    ".py", ".js", ".ts", ".java", ".php", ".rb", ".go", ".cs",
+    ".sql", ".json", ".yml", ".yaml", ".md"
+)
+
+# Carpetas que ignoramos
+IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
+
+visited = set()
+db_counts = {}
 
 def fetch_file(url):
     r = requests.get(url, headers=headers)
@@ -39,22 +49,25 @@ def scan_directory(url):
         return
 
     for item in contents:
-        if item["type"] == "file":
+        if item["type"] == "dir":
+            if item["name"] in IGNORE_DIRS:
+                continue
+            scan_directory(item["url"])
+
+        elif item["type"] == "file":
+            if not any(item["name"].endswith(ext) for ext in VALID_EXT):
+                continue
+
             text = fetch_file(item["download_url"])
             found = detect_databases(text)
             for tech in found:
                 db_counts[tech] = db_counts.get(tech, 0) + 1
 
-        elif item["type"] == "dir":
-            scan_directory(item["url"])
-
-# === Obtener repos ===
+# Obtener repos
 repos = requests.get(
     f"https://api.github.com/users/{USER}/repos?per_page=100",
     headers=headers
 ).json()
-
-db_counts = {}
 
 for repo in repos:
     print(f"Analizando repo: {repo['name']}")
