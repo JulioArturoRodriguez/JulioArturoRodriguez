@@ -107,14 +107,25 @@ def scan_directory(url):
                 framework_counts[tech] = framework_counts.get(tech, 0) + 1
 
 
-# === ANALIZAR TODOS LOS REPOS ===
-repos = requests.get(
+# === OBTENER REPOS CON VALIDACIÓN (FIX DEL ERROR) ===
+response = requests.get(
     f"https://api.github.com/users/{USER}/repos?per_page=100",
     headers=headers
-).json()
+)
 
+if response.status_code != 200:
+    print("ERROR al obtener repositorios:", response.text)
+    exit(1)
+
+repos = response.json()
+
+if not isinstance(repos, list):
+    print("La API no devolvió una lista de repositorios:", repos)
+    exit(1)
+
+# === ANALIZAR TODOS LOS REPOS ===
 for repo in repos:
-    print(f"Analizando repo: {repo['name']}")
+    print(f"Analizando repo: {repo.get('name', 'SIN NOMBRE')}")
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
