@@ -15,15 +15,15 @@ FRAMEWORKS = {
     "React": r"(import\s+React\b|from\s+['\"]react['\"])",
     "React Router": r"(from\s+['\"]react-router|from\s+['\"]react-router-dom)",
     "Styled Components": r"(from\s+['\"]styled-components['\"])",
-    "Bootstrap": r"(from\s+['\"]bootstrap['\"]|import\s+['\"]bootstrap)",
+    "Bootstrap": r"(bootstrap|class=\".*btn|class=\".*container)",
 
     # BACK-END
     "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
-    "Spring Boot": r"@SpringBootApplication|org\.springframework\.boot",
-    "Spring Web": r"@RestController|@Controller|org\.springframework\.web",
-    "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
-    "Spring Data JPA": r"org\.springframework\.data\.jpa",
-    "Hibernate": r"org\.hibernate",
+    "Spring Boot": r"@SpringBootApplication|spring-boot",
+    "Spring Web": r"@RestController|@Controller|spring-web",
+    "Spring Security": r"@EnableWebSecurity|spring-security",
+    "Spring Data JPA": r"spring-data-jpa",
+    "Hibernate": r"org\.hibernate|hibernate-core",
 
     # MACHINE LEARNING / DEEP LEARNING
     "TensorFlow": r"(import\s+tensorflow|from\s+tensorflow)",
@@ -32,8 +32,15 @@ FRAMEWORKS = {
     "Scikit-Learn": r"(import\s+sklearn|from\s+sklearn)"
 }
 
-# === EXTENSIONES PERMITIDAS (OPTIMIZACIÓN) ===
-VALID_EXT = {".js", ".jsx", ".ts", ".tsx", ".java", ".py"}
+# === EXTENSIONES A EXCLUIR (solo basura) ===
+EXCLUDED_EXT = {
+    ".pdf", ".doc", ".docx",
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp",
+    ".mp4", ".mov", ".avi",
+    ".zip", ".rar", ".tar", ".gz",
+    ".exe", ".dll", ".so",
+    ".mp3", ".wav"
+}
 
 TOKEN = os.getenv("GH_TOKEN")
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
@@ -56,7 +63,7 @@ def fetch_directory(url):
             break
         all_items.extend(data)
         page += 1
-        if page > 50:  # OPTIMIZACIÓN: límite razonable
+        if page > 100:
             break
     return all_items
 
@@ -85,9 +92,9 @@ def scan_directory(url):
             scan_directory(item["url"])
 
         elif item["type"] == "file":
-            ext = os.path.splitext(item["name"])[1]
-            if ext not in VALID_EXT:
-                continue  # OPTIMIZACIÓN: ignorar archivos inútiles
+            ext = os.path.splitext(item["name"])[1].lower()
+            if ext in EXCLUDED_EXT:
+                continue  # ignorar basura
 
             download_url = item.get("download_url")
             if not download_url:
@@ -111,7 +118,7 @@ for repo in repos:
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
-# === RUTAS MANUALES (SE MANTIENEN TODAS) ===
+# === RUTAS MANUALES (se mantienen todas) ===
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/DESARROLLADOR-JAVA-SPRING-BOOT-TALENTO-TECH/contents/src/main/java/com/techlab/demo")
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/DESARROLLADOR-JAVA-SPRING-BOOT-TALENTO-TECH/contents/src/main/resources")
 scan_directory("https://api.github.com/repos/JulioArturoRodriguez/www.backend-cudi-utn-proyect-julio-rodriguez/contents")
