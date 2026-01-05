@@ -327,4 +327,13 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Herramientas
 ![Herramientas](output/tools.png)
 <!-- AUTO-TOOLS -->
+## Herramientas detectadas automáticamente
+
+- **Vite**: 25 repos
+- **Maven**: 7 repos
+- **Visual Studio Code**: 5 repos
+- **Eclipse**: 3 repos
+- **IntelliJ IDEA**: 2 repos
+- **NetBeans**: 2 repos
+- **CodeBlocks**: 1 repos
 .
