@@ -286,7 +286,7 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 
 
 ## 📊 Bases de datos
-![Bases de datos](output/database_stats.png)
+![Bases de datos](output/databases.png)
 <!-- AUTO-DATABASES -->
 ## Bases de datos detectadas automáticamente
 
