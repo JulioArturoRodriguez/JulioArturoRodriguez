@@ -93,20 +93,32 @@ IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 visited = set()
 framework_counts = {}
 
-# === PAGINACIÓN DE GITHUB API ===
+# === PAGINACIÓN SEGURA ===
 def fetch_directory(url):
     all_items = []
     page = 1
 
     while True:
         paged_url = f"{url}?page={page}&per_page=100"
-        response = requests.get(paged_url, headers=headers).json()
+        response = requests.get(paged_url, headers=headers)
 
-        if not isinstance(response, list) or len(response) == 0:
+        if response.status_code != 200:
             break
 
-        all_items.extend(response)
+        data = response.json()
+
+        if not isinstance(data, list):
+            break
+
+        if len(data) == 0:
+            break
+
+        all_items.extend(data)
         page += 1
+
+        # Seguridad anti-loop
+        if page > 10:
+            break
 
     return all_items
 
