@@ -16,6 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
+          ref: main            
           fetch-depth: 0
           persist-credentials: false
           clean: false
@@ -46,4 +47,5 @@ jobs:
         run: |
           git add output/tools.png output/tools.json output/tools.md README.md
           git commit -m "Update tools stats" || echo "No changes to commit"
-          git push || true
+          git pull --rebase origin main || true
+          git push origin main || true
