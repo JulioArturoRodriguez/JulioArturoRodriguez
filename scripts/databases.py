@@ -1,12 +1,17 @@
-import matplotlib
-matplotlib.use("Agg")  # <-- NECESARIO EN GITHUB ACTIONS
-
-import requests
 import os
 import re
 import json
+import requests
+
+# Matplotlib en GitHub Actions necesita backend "Agg"
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+
+# -----------------------------
+# CONFIGURACIÓN
+# -----------------------------
 USER = "JulioArturoRodriguez"
 
 DATABASES = {
@@ -28,9 +33,14 @@ IGNORE_DIRS = {"node_modules", "vendor", "dist", "build", ".git", ".github"}
 visited = set()
 db_counts = {}
 
+
+# -----------------------------
+# FUNCIONES
+# -----------------------------
 def fetch_file(url):
     r = requests.get(url, headers=headers)
     return r.text if r.status_code == 200 else ""
+
 
 def detect_databases(text):
     found = []
@@ -38,6 +48,7 @@ def detect_databases(text):
         if re.search(pattern, text, re.IGNORECASE):
             found.append(tech)
     return found
+
 
 def scan_directory(url):
     if url in visited:
@@ -64,20 +75,31 @@ def scan_directory(url):
             for tech in found:
                 db_counts[tech] = db_counts.get(tech, 0) + 1
 
+
+# -----------------------------
+# OBTENER REPOS
+# -----------------------------
 repos = requests.get(
     f"https://api.github.com/users/{USER}/repos?per_page=100",
     headers=headers
 ).json()
 
+# Validar errores de GitHub API
 if isinstance(repos, dict) and "message" in repos:
     print("ERROR:", repos["message"])
     exit(1)
+
+print("Repos encontrados:", len(repos))
 
 for repo in repos:
     print(f"Analizando repo: {repo['name']}")
     root_url = repo["contents_url"].replace("{+path}", "")
     scan_directory(root_url)
 
+
+# -----------------------------
+# GENERAR ARCHIVOS DE SALIDA
+# -----------------------------
 os.makedirs("output", exist_ok=True)
 
 sorted_db = dict(sorted(db_counts.items(), key=lambda x: x[1], reverse=True))
@@ -93,15 +115,27 @@ with open("output/databases.md", "w") as f:
         for tech, count in sorted_db.items():
             f.write(f"- **{tech}**: {count} repos\n")
 
+
+# -----------------------------
+# GENERAR GRÁFICO
+# -----------------------------
 plt.figure(figsize=(12, 6))
 
 if sorted_db:
     plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
 else:
-    plt.text(0.5, 0.5, "No se detectaron bases de datos", ha="center", va="center", fontsize=14)
+    plt.text(0.5, 0.5, "No se detectaron bases de datos",
+             ha="center", va="center", fontsize=14)
 
 plt.title("Bases de datos detectadas")
 plt.xticks(rotation=45)
 plt.tight_layout()
+
+print("Backend:", plt.get_backend())
+print("¿Existe la imagen antes de guardar?:", os.path.exists("output/databases.png"))
+
 plt.savefig("output/databases.png")
+
+print("¿Existe la imagen después de guardar?:", os.path.exists("output/databases.png"))
+
 plt.close()
