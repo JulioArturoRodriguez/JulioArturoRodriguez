@@ -23,11 +23,14 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
-        "React": r"from\s+['\"]react['\"]",
-        "React Router": r"from\s+['\"]react-router['\"]",
-        "Styled Components": r"from\s+['\"]styled-components['\"]",
-        "Bootstrap": r"from\s+['\"]bootstrap['\"]",
-        "Express": r"(from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
+        # Cubre: import ... from "react" / require("react")
+        "React": r"(from\s+['\"]react['\"]|require\(['\"]react['\"]\))",
+        "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
+        "Styled Components": r"(from\s+['\"]styled-components['\"])",
+        "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
+        # Cubre: import express from "express" / const express = require("express")
+        "Express": r"(import\s+.*\s+from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
+        # Node.js genérico: require, module.exports
         "Node.js": r"(require\(|module\.exports\b)",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\))",
         "Bcrypt": r"(from\s+['\"]bcrypt['\"]|require\(['\"]bcrypt['\"]\))",
@@ -35,27 +38,29 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "ts": {
-        "React": r"from\s+['\"]react['\"]",
-        "React Router": r"from\s+['\"]react-router['\"]",
-        "Styled Components": r"from\s+['\"]styled-components['\"]",
-        "Bootstrap": r"from\s+['\"]bootstrap['\"]",
-        "Express": r"from\s+['\"]express['\"]",
-        "Node.js": r"import\s+.*from\s+['\"]fs['\"]",
-        "JWT": r"from\s+['\"]jsonwebtoken['\"]",
-        "Bcrypt": r"from\s+['\"]bcrypt['\"]",
-        "Mongoose": r"from\s+['\"]mongoose['\"]"
+        "React": r"(from\s+['\"]react['\"])",
+        "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
+        "Styled Components": r"(from\s+['\"]styled-components['\"])",
+        "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
+        "Express": r"(from\s+['\"]express['\"])",
+        "Node.js": r"(import\s+.*\s+from\s+['\"]fs['\"]|import\s+.*\s+from\s+['\"]path['\"])",
+        "JWT": r"(from\s+['\"]jsonwebtoken['\"])",
+        "Bcrypt": r"(from\s+['\"]bcrypt['\"])",
+        "Mongoose": r"(from\s+['\"]mongoose['\"])"
     },
 
     "java": {
-        "Spring Boot": r"@SpringBootApplication",
-        "Spring Web": r"@RestController",
-        "Spring Security": r"@EnableWebSecurity",
-        "Spring Data JPA": r"@Entity",
-        "Hibernate": r"@Entity",
-        "Lombok": r"@(Data|Getter|Setter|Builder)"
+        # Anotaciones típicas de Spring Boot y Web
+        "Spring Boot": r"@SpringBootApplication|org\.springframework\.boot",
+        "Spring Web": r"@RestController|@Controller|org\.springframework\.web",
+        "Spring Security": r"@EnableWebSecurity|org\.springframework\.security",
+        "Spring Data JPA": r"@Entity|org\.springframework\.data\.jpa",
+        "Hibernate": r"@Entity|org\.hibernate",
+        "Lombok": r"@(Data|Getter|Setter|Builder|NoArgsConstructor|AllArgsConstructor)|lombok\."
     },
 
     "php": {
+        # Laravel: namespaces y uso de Illuminate
         "Laravel": r"(use\s+Illuminate\\|namespace\s+App\\)"
     }
 }
