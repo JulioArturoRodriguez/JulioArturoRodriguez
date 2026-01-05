@@ -23,10 +23,15 @@ FRAMEWORKS_BY_LANG = {
     },
 
     "js": {
+        # FRONT-END
         "React": r"(from\s+['\"]react['\"]|import\s+ReactDOM|import\s+.*\s+from\s+['\"]react['\"])",
         "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
-        "Styled Components": r"(from\s+['\"]styled-components['\"])",
-        "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
+        "Styled Components": r"(from\s+['\"]styled-components['\"]|import\s+styled\s+from\s+['\"]styled-components['\"])",
+        "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"]|import\s+['\"]bootstrap/)",
+        "Axios": r"(from\s+['\"]axios['\"]|require\(['\"]axios['\"]\))",
+        "JSX/TSX": r"<[A-Za-z]+[\s/>]",
+
+        # BACK-END
         "Express": r"(import\s+.*\s+from\s+['\"]express['\"]|require\(['\"]express['\"]\))",
         "Node.js": r"(require\(|module\.exports\b)",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"]|require\(['\"]jsonwebtoken['\"]\)|import\s+.*\s+from\s+['\"]jsonwebtoken['\"])",
@@ -39,6 +44,9 @@ FRAMEWORKS_BY_LANG = {
         "React Router": r"(from\s+['\"]react-router['\"]|from\s+['\"]react-router-dom['\"])",
         "Styled Components": r"(from\s+['\"]styled-components['\"])",
         "Bootstrap": r"(from\s+['\"]bootstrap['\"]|from\s+['\"]react-bootstrap['\"])",
+        "Axios": r"(from\s+['\"]axios['\"])",
+        "JSX/TSX": r"<[A-Za-z]+[\s/>]",
+
         "Express": r"(from\s+['\"]express['\"])",
         "Node.js": r"(import\s+.*\s+from\s+['\"]fs['\"]|import\s+.*\s+from\s+['\"]path['\"])",
         "JWT": r"(from\s+['\"]jsonwebtoken['\"])",
