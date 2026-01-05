@@ -1,4 +1,3 @@
-# trigger
 import requests
 import os
 import re
@@ -13,8 +12,12 @@ DATABASES = {
     "SQLite": r"sqlite"
 }
 
+# === TOKEN ===
+TOKEN = os.getenv("GH_TOKEN")
+headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
+
 def fetch_file(url):
-    r = requests.get(url)
+    r = requests.get(url, headers=headers)
     return r.text if r.status_code == 200 else ""
 
 def detect_databases(text):
@@ -24,12 +27,15 @@ def detect_databases(text):
             found.append(tech)
     return found
 
-repos = requests.get(f"https://api.github.com/users/{USER}/repos").json()
+# Obtener repos con token
+repos = requests.get(f"https://api.github.com/users/{USER}/repos", headers=headers).json()
 
 db_counts = {}
 
 for repo in repos:
-    contents = requests.get(repo["contents_url"].replace("{+path}", "")).json()
+    contents_url = repo["contents_url"].replace("{+path}", "")
+    contents = requests.get(contents_url, headers=headers).json()
+
     if isinstance(contents, dict):
         continue
 
@@ -52,7 +58,7 @@ with open("output/databases.md", "w") as f:
     for tech, count in sorted_db.items():
         f.write(f"- **{tech}**: {count} repos\n")
 
-# SIEMPRE generar el PNG
+# Generar PNG SIEMPRE
 plt.figure(figsize=(12, 6))
 plt.bar(sorted_db.keys(), sorted_db.values(), color="blue")
 plt.title("Bases de datos detectadas")
