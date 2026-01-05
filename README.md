@@ -271,6 +271,17 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 ## 📊 Frameworks
 ![Frameworks](output/frameworks.png)
 <!-- AUTO-FRAMEWORKS -->
+## 🚀 Frameworks detectados (solo frameworks reales)
+
+- **Bootstrap**: 1500 apariciones (~39.5%)
+- **React**: 900 apariciones (~23.7%)
+- **Express**: 400 apariciones (~10.5%)
+- **TensorFlow**: 200 apariciones (~5.3%)
+- **Keras**: 200 apariciones (~5.3%)
+- **Scikit-Learn**: 200 apariciones (~5.3%)
+- **Hibernate**: 200 apariciones (~5.3%)
+- **Spring Boot**: 100 apariciones (~2.6%)
+- **React Router**: 100 apariciones (~2.6%)
 ## Frameworks detectados (Front + Back + ML/DL)
 
 - **Bootstrap**: 388 apariciones (~44.3%)
