@@ -5,8 +5,11 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
+# ========= CONFIG =========
+
 USER = "JulioArturoRodriguez"
 
+# SOLO LIBRERÍAS (no frameworks)
 LIBRARIES = {
     "JWT": r"(jsonwebtoken|jwt)",
     "Bcrypt": r"(bcrypt)",
@@ -42,7 +45,10 @@ visited_dirs = set()
 library_counts = {}
 
 
+# ========= HELPERS =========
+
 def fetch_directory(url: str):
+    """Obtiene contenido de un directorio con paginación."""
     all_items = []
     page = 1
     while True:
@@ -68,6 +74,7 @@ def fetch_directory(url: str):
 
 
 def build_raw_url(item: dict):
+    """Construye URL RAW confiable."""
     if item.get("download_url"):
         return item["download_url"]
 
@@ -79,6 +86,7 @@ def build_raw_url(item: dict):
 
 
 def fetch_file(url: str):
+    """Descarga archivo como texto."""
     try:
         resp = requests.get(url, headers=headers, timeout=20)
         if resp.status_code != 200:
@@ -92,6 +100,7 @@ def fetch_file(url: str):
 
 
 def detect_libraries(text: str):
+    """Devuelve lista de librerías encontradas."""
     found = []
     for lib, pattern in LIBRARIES.items():
         if re.search(pattern, text, re.IGNORECASE | re.MULTILINE):
@@ -100,6 +109,7 @@ def detect_libraries(text: str):
 
 
 def scan_directory(url: str):
+    """Escanea recursivamente un directorio."""
     if url in visited_dirs:
         return
     visited_dirs.add(url)
@@ -139,8 +149,11 @@ def scan_directory(url: str):
             continue
 
 
+# ========= MAIN =========
+
 def main():
     print(f"Obteniendo repositorios de {USER}...")
+
     try:
         resp = requests.get(
             f"https://api.github.com/users/{USER}/repos?per_page=100",
@@ -157,6 +170,7 @@ def main():
     if not isinstance(repos, list):
         return
 
+    # Escanear todos los repos
     for repo in repos:
         name = repo.get("name", "SIN NOMBRE")
         print(f"Analizando repo: {name}")
@@ -166,11 +180,14 @@ def main():
         root_url = contents_url.replace("{+path}", "")
         scan_directory(root_url)
 
+    # Crear carpeta output
     os.makedirs("output", exist_ok=True)
 
+    # Ordenar resultados
     sorted_libs = dict(sorted(library_counts.items(), key=lambda x: x[1], reverse=True))
     total = sum(sorted_libs.values())
 
+    # ========= GENERAR libraries.md (siempre) =========
     with open("output/libraries.md", "w", encoding="utf-8") as f:
         f.write("## 📚 Librerías detectadas\n\n")
         if total == 0:
@@ -180,19 +197,24 @@ def main():
                 percent = (count / total) * 100 if total > 0 else 0
                 f.write(f"- **{lib}**: {count} apariciones (~{percent:.1f}%)\n")
 
+    # ========= GENERAR libraries.png (siempre) =========
     labels = list(sorted_libs.keys())
     values = list(sorted_libs.values())
     percents = [(v / total) * 100 for v in values] if total > 0 else []
 
+    plt.figure(figsize=(14, max(6, len(labels) * 0.5)))
+
     if labels:
-        height = max(6, len(labels) * 0.5)
-        plt.figure(figsize=(14, height))
         plt.barh(labels, percents, color="blue")
         plt.title("Proporción de Librerías Detectadas (%)")
         plt.xlabel("Porcentaje del código analizado")
-        plt.tight_layout()
-        plt.savefig("output/libraries.png")
-        plt.close()
+    else:
+        plt.text(0.5, 0.5, "No se detectaron librerías", ha="center", va="center", fontsize=16)
+        plt.title("Librerías Detectadas")
+
+    plt.tight_layout()
+    plt.savefig("output/libraries.png")
+    plt.close()
 
 
 if __name__ == "__main__":
