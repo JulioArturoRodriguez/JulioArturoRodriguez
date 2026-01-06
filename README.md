@@ -100,10 +100,29 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 ---
 <h2>🎓 Formación y certificaciones</h2>
-<p>Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:</p>
+<p>Cuento con formación respaldada por instituciones universitarias, programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional.</p>
 
-<h3>📘 Diplomaturas cursadas:</h3>
+<h3>🏛️ Formación universitaria</h3>
+<ul>
+  <li>
+    <img src="IMG/uno.png" alt="UNO" width="25" style="vertical-align: middle;" />
+    <strong>Universidad Nacional del Oeste (UNO)</strong> – Profesorado Universitario en Informática (carrera en curso).
+  </li>
+</ul>
 
+<p>📚 <strong>Enfoque académico actual:</strong><br>
+Actualmente desarrollo el <strong>Profesorado Universitario en Informática</strong>, una formación con base matemática sólida, orientación tecnológica integral y una combinación equilibrada entre <strong>teoría avanzada</strong> y <strong>práctica aplicada</strong>, enfocada en el desarrollo, la enseñanza y la investigación en tecnologías informáticas contemporáneas.
+</p>
+
+<h3>🏛️ Formación técnica superior</h3>
+<ul>
+  <li>
+    <img src="IMG/descarga (3).jpeg" alt="IFTS 11" width="25" style="vertical-align: middle;" />
+    <strong>Instituto de Formación Técnica Superior N.º 11 (IFTS 11)</strong> – Formación técnica en tecnología aplicada con certificación oficial.
+  </li>
+</ul>
+
+<h3>📘 Diplomaturas cursadas</h3>
 <ul>
   <li>
     <img src="IMG/descarga.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
@@ -112,19 +131,14 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
     <img src="IMG/descarga (2).png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
   </li>
   <li>
-    <img src="IMG/descarga (1).png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN - Universidad Tecnológica Nacional</strong>
+    <img src="IMG/descarga (1).png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN – Universidad Tecnológica Nacional</strong>
   </li>
   <li>
     <img src="IMG/descarga (3).png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
   </li>
-  <li>
-    <img src="IMG/unq.png" alt="UNQ" width="25" style="vertical-align: middle;"/> 
-    <strong>Universidad Nacional de Quilmes – Diplomatura de Extensión Universitaria (2026)</strong>
-  </li>
 </ul>
 
-<h3>🧪 Certificaciones prácticas avaladas por:</h3>
-
+<h3>🧪 Certificaciones prácticas avaladas por</h3>
 <ul>
   <li>
     <img src="IMG/descarga (4).png" alt="INET" width="25" style="vertical-align: middle;"/> <strong>INET</strong> – Instituto Nacional de Educación Tecnológica
@@ -138,37 +152,32 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 </ul>
 
 <p>🎯 <strong>Actualmente:</strong><br>
-profesorado universitario de informatica  en <strong> orientado a una base fuerte en tecnologia y educacion de nivel medio y superior con basematematica y con orientación práctica</strong>, enfocada en tecnologia y educacion de todos los niveles.
+Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Software con orientación práctica</strong>, enfocada en herramientas reales de la industria.
 </p>
 
 <h2>🏫 Instituciones educativas y centros de formación</h2>
-<p>He desarrollado mi formación a través de diversas instituciones educativas y programas especializados, tanto en educación formal como no formal, en áreas técnicas, tecnológicas y lingüísticas:</p>
 
-<h3>🏛️ Formación técnica y profesional</h3>
+<h3>🏛️ Formación profesional</h3>
 <ul>
   <li>
-    <img src="IMG/descarga (3).jpeg" alt="IFTS 11" width="25" style="vertical-align: middle;" />
-    <strong> Instituto de Formación Técnica Superior N.º 11 (IFTS 11)</strong> – Formación en tecnología aplicada, con orientación práctica y certificación oficial.
-  </li>
-  <li>
     <img src="IMG/descarga (7).png" alt="CUDI" width="25" style="vertical-align: middle;" />
-    <strong> Centro Universitario de González Catán (CUDI)</strong> – Participación en programas de capacitación universitaria descentralizada.
+    <strong>Centro Universitario de González Catán (CUDI)</strong> – Programas de capacitación universitaria descentralizada.
   </li>
   <li>
     <img src="IMG/descarga (1).jpeg" alt="CFP 31" width="25" style="vertical-align: middle;" />
-    <strong> Centro de Formación Profesional N.º 31 (CFP 31)</strong> – Cursos de capacitación técnica en entornos productivos, avalados por el INET.
+    <strong>CFP N.º 31</strong> – Capacitación técnica avalada por INET.
   </li>
   <li>
     <img src="IMG/255120278_3038442806402658_2233808457185965660_n.jpg" alt="CFP 406" width="25" style="vertical-align: middle;" />
-    <strong> Centro de Formación Profesional N.º 406 – La Matanza</strong> – Capacitación técnica e industrial con validez nacional.
+    <strong>CFP N.º 406 – La Matanza</strong> – Formación técnica e industrial.
   </li>
   <li>
     <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
-    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos (2026)</strong>.
+    <strong>CFP N.º 6</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos (2026)</strong>.
   </li>
   <li>
     <img src="IMG/mep404.png" alt="MEP 404" width="25" style="vertical-align: middle;" />
-    <strong> MEP 404 – Lomas de Zamora</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos (2026)</strong>.
+    <strong>MEP 404 – Lomas de Zamora</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos (2026)</strong>.
   </li>
 </ul>
 
@@ -176,26 +185,21 @@ profesorado universitario de informatica  en <strong> orientado a una base fuert
 <ul>
   <li>
     <img src="IMG/descarga (6).png" alt="Ciudad Bilingüe" width="25" style="vertical-align: middle;" />
-    <strong> Ciudad Bilingüe</strong> – Programa de formación en idiomas enfocado en competencias comunicativas en inglés.
+    <strong>Ciudad Bilingüe</strong> – Formación en competencias comunicativas en inglés.
   </li>
   <li>
     <img src="IMG/descarga (2).jpeg" alt="CUI Idiomas" width="25" style="vertical-align: middle;" />
-    <strong> CUI Idiomas – Centro Universitario de Idiomas</strong> – Cursos de inglés general y técnico en diferentes niveles.
+    <strong>CUI Idiomas</strong> – Inglés general y técnico.
   </li>
 </ul>
 
-<h3>🏛️ Universidades e instituciones complementarias</h3>
+<h3>🏛️ Formación complementaria</h3>
 <ul>
   <li>
-    <img src="IMG/IMAGEN.png" alt="UTN" width="25" style="vertical-align: middle;" />
-    <strong> UTN – Universidad Tecnológica Nacional</strong> – Diplomaturas y cursos especializados en desarrollo de software y tecnologías aplicadas.
-  </li>
-  <li>
-    <img src="IMG/uno.png" alt="UNO" width="25" style="vertical-align: middle;" />
-    <strong> Universidad Nacional del Oeste (UNO)</strong> – Formación complementaria en tecnologías aplicadas.
+    <img src="IMG/unq.png" alt="UNQ" width="25" style="vertical-align: middle;" />
+    <strong>Universidad Nacional de Quilmes (UNQ)</strong> – Diplomatura de Extensión Universitaria (2026).
   </li>
 </ul>
-
 ---
 
 ## 🎯 Enfoque actual y objetivos
