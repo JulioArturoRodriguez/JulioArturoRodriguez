@@ -138,7 +138,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 </ul>
 
 <p>🎯 <strong>Actualmente:</strong><br>
-Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Software con orientación práctica</strong>, enfocada en herramientas reales de la industria.
+profesorado universitario de informatica  en <strong> orientado a una base fuerte en tecnologia y educacion de nivel medio y superior con basematematica y con orientación práctica</strong>, enfocada en tecnologia y educacion de todos los niveles.
 </p>
 
 <h2>🏫 Instituciones educativas y centros de formación</h2>
