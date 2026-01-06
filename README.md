@@ -303,6 +303,15 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 <!-- AUTO-LIBRARIES -->
 ## 📚 Librerías detectadas
 
+- **JWT**: 600 apariciones (~33.3%)
+- **Mongoose**: 400 apariciones (~22.2%)
+- **Bcrypt**: 300 apariciones (~16.7%)
+- **Lombok**: 200 apariciones (~11.1%)
+- **NumPy**: 100 apariciones (~5.6%)
+- **Pandas**: 100 apariciones (~5.6%)
+- **Matplotlib**: 100 apariciones (~5.6%)
+## 📚 Librerías detectadas
+
 - **JWT**: 300 apariciones (~41.1%)
 - **Lombok**: 200 apariciones (~27.4%)
 - **Bcrypt**: 100 apariciones (~13.7%)
