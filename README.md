@@ -123,6 +123,10 @@ Cuento con formación respaldada por programas nacionales y centros de formació
   <li>
     <img src="IMG/descarga (3).png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
   </li>
+  <li>
+    <img src="IMG/unq.png" alt="UNQ" width="25" style="vertical-align: middle;"/> 
+    <strong>Universidad Nacional de Quilmes – Diplomatura de Extensión Universitaria</strong>
+  </li>
 </ul>
 
 <h3>🧪 Certificaciones prácticas avaladas por:</h3>
@@ -163,6 +167,14 @@ Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Softwa
   <li>
     <img src="IMG/255120278_3038442806402658_2233808457185965660_n.jpg" alt="CFP 406" width="25" style="vertical-align: middle;" />
     <strong> Centro de Formación Profesional N.º 406 – La Matanza</strong> – Capacitación técnica e industrial con validez nacional.
+  </li>
+  <li>
+    <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
+    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos</strong>.
+  </li>
+  <li>
+    <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
+    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos</strong>.
   </li>
 </ul>
 
