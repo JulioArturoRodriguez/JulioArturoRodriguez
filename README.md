@@ -134,7 +134,7 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
     <img src="IMG/descarga (1).png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN – Universidad Tecnológica Nacional</strong>
   </li>
   <li>
-    <img src="IMG/descarga (3).png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1 y 2</strong>
+    <img src="IMG/descarga (3).png" alt="Argentina Programa" width="25" style="vertical-align: middle;"/> <strong>Argentina Programa 1, 2 y 3</strong>
   </li>
 </ul>
 
