@@ -323,6 +323,11 @@ Mi formación comenzó como un hobby, pero se convirtió en una pasión con visi
 - **Selenium**: 2 repos
 - **Postman**: 1 repos
 - **Insomnia**: 1 repos
+## Testing detectado automáticamente
+
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
 
 
 ## 📊 Herramientas
