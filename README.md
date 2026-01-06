@@ -99,12 +99,6 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 `UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`
 
 ---
-
-## 🎓 Formación y certificaciones
-
-
-Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:
-
 <h2>🎓 Formación y certificaciones</h2>
 <p>Cuento con formación respaldada por programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional:</p>
 
@@ -125,7 +119,7 @@ Cuento con formación respaldada por programas nacionales y centros de formació
   </li>
   <li>
     <img src="IMG/unq.png" alt="UNQ" width="25" style="vertical-align: middle;"/> 
-    <strong>Universidad Nacional de Quilmes – Diplomatura de Extensión Universitaria</strong>
+    <strong>Universidad Nacional de Quilmes – Diplomatura de Extensión Universitaria (2026)</strong>
   </li>
 </ul>
 
@@ -170,11 +164,11 @@ Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Softwa
   </li>
   <li>
     <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
-    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos</strong>.
+    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos (2026)</strong>.
   </li>
   <li>
-    <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
-    <strong> Centro de Formación Profesional N.º 6 (CFP 6)</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos</strong>.
+    <img src="IMG/mep404.png" alt="MEP 404" width="25" style="vertical-align: middle;" />
+    <strong> MEP 404 – Lomas de Zamora</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos (2026)</strong>.
   </li>
 </ul>
 
@@ -196,8 +190,11 @@ Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Softwa
     <img src="IMG/IMAGEN.png" alt="UTN" width="25" style="vertical-align: middle;" />
     <strong> UTN – Universidad Tecnológica Nacional</strong> – Diplomaturas y cursos especializados en desarrollo de software y tecnologías aplicadas.
   </li>
+  <li>
+    <img src="IMG/uno.png" alt="UNO" width="25" style="vertical-align: middle;" />
+    <strong> Universidad Nacional del Oeste (UNO)</strong> – Formación complementaria en tecnologías aplicadas.
+  </li>
 </ul>
-
 
 ---
 
