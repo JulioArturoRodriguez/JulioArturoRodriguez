@@ -151,10 +151,6 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
   </li>
 </ul>
 
-<p>🎯 <strong>Actualmente:</strong><br>
-Curso el segundo cuatrimestre de una diplomatura en <strong>Desarrollo de Software con orientación práctica</strong>, enfocada en herramientas reales de la industria.
-</p>
-
 <h2>🏫 Instituciones educativas y centros de formación</h2>
 
 <h3>🏛️ Formación profesional</h3>
