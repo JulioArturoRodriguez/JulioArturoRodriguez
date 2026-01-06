@@ -125,7 +125,7 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
 <h3>📘 Diplomaturas cursadas</h3>
 <ul>
   <li>
-    <img src="IMG/descarga.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
+    <img src="IMG/codo.png" alt="Codo a Codo" width="25" style="vertical-align: middle;"/> <strong>Codo a Codo 4.0</strong>
   </li>
   <li>
     <img src="IMG/descarga (2).png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
