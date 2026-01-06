@@ -1,8 +1,8 @@
 ## 📊 Lenguajes más usados (actualizado automáticamente)
 
-- **JavaScript**: 65.6%
-- **CSS**: 14.77%
-- **Java**: 10.09%
-- **Python**: 7.72%
-- **HTML**: 1.69%
-- **Dockerfile**: 0.13%
+- **JavaScript**: 63.3%
+- **CSS**: 14.25%
+- **Python**: 10.96%
+- **Java**: 9.73%
+- **HTML**: 1.63%
+- **Dockerfile**: 0.12%
