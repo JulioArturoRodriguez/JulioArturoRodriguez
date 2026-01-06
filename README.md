@@ -168,11 +168,11 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
     <strong>CFP N.º 406 – La Matanza</strong> – Formación técnica e industrial.
   </li>
   <li>
-    <img src="IMG/cfp6.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
+    <img src="IMG/cifpa-logo2022.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
     <strong>CFP N.º 6</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos (2026)</strong>.
   </li>
   <li>
-    <img src="IMG/mep404.png" alt="MEP 404" width="25" style="vertical-align: middle;" />
+    <img src="IMG/logogif.gif" alt="MEP 404" width="25" style="vertical-align: middle;" />
     <strong>MEP 404 – Lomas de Zamora</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos (2026)</strong>.
   </li>
 </ul>
@@ -192,7 +192,7 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
 <h3>🏛️ Formación complementaria</h3>
 <ul>
   <li>
-    <img src="IMG/unq.png" alt="UNQ" width="25" style="vertical-align: middle;" />
+    <img src="IMG/descarga.png" alt="UNQ" width="25" style="vertical-align: middle;" />
     <strong>Universidad Nacional de Quilmes (UNQ)</strong> – Diplomatura de Extensión Universitaria (2026).
   </li>
 </ul>
