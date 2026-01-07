@@ -1,5 +1,5 @@
 ## Bases de datos detectadas automáticamente
 
-- **MySQL**: 158 repos
-- **MongoDB**: 141 repos
-- **SQLite**: 37 repos
+- **MySQL**: 160 repos
+- **MongoDB**: 145 repos
+- **SQLite**: 39 repos
