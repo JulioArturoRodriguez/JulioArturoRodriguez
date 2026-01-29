@@ -96,7 +96,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 
 ### 🎨 Otros
-`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`
+`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
 
 ---
 <h2>🎓 Formación y certificaciones</h2>
