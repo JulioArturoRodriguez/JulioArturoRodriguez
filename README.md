@@ -44,7 +44,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 
 ### 🧠 Desarrollo de software
-'Arquitectura MVC', 'Microservicios', 'RESTful APIs', 'CORS (Cross-Origin Resource Sharing)', 'Concurrencia', 'Paralelismo', 'Asincronía', 'Hilos', 'Patrones de diseño', 'Domain-Driven Design (DDD)', 'Arquitectura Hexagonal / Clean Architecture', 'Arquitectura en capas', 'Arquitectura de Dominio (Domain Layer Architecture)', 'Arquitectura de Capas Lógicas (Logical Layered Architecture)'
+`Arquitectura MVC`, `Microservicios`, `RESTful APIs`, `CORS (Cross-Origin Resource Sharing)`, `Concurrencia`, `Paralelismo`, `Asincronía`, `Hilos`, `Patrones de diseño`, `Domain-Driven Design (DDD)`, `Arquitectura Hexagonal / Clean Architecture`, `Arquitectura en capas`, `Arquitectura de Dominio (Domain Layer Architecture)`, `Arquitectura de Capas Lógicas (Logical Layered Architecture)`
 
 ### 🧪 Testing
 ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
