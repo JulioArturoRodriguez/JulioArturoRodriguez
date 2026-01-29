@@ -208,6 +208,27 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
 </ul>
 ---
 
+<h3>🏅 Formación profesional</h3>
+<ul>
+  <li>
+    <img src="IMG/cfl 403).png" alt="Cocinero" width="25" style="vertical-align: middle;" />
+    <strong>Formación Profesional – CFL N.º 403</strong>
+    <br>
+    (Realizada como pasatiempo / hobbie) (2026).
+    <br>
+    👨‍🍳🍳🥘🍲 Cocinero
+  </li>
+
+  <li>
+    <img src="IMG/cfl 403).png" alt="Pizzero" width="25" style="vertical-align: middle;" />
+    <strong>Formación Profesional – CFL N.º 403</strong>
+    <br>
+    (Realizada como pasatiempo / hobbie) (2026).
+    <br>
+    🍕🍕🍗 Maestro Pizzero • Roticero
+  </li>
+</ul>
+
 ## 🎯 Enfoque actual y objetivos
 
 Me inclino más por el desarrollo **web** y **Movil**, donde puedo aplicar mis conocimientos técnicos y creativos.  
