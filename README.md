@@ -206,6 +206,12 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
     <strong>Facultad de Artes – Universidad Nacional del Centro (UNICEN)</strong> – Diplomatura de Extensión Universitaria.
   </li>
 </ul>
+
+<li>
+    <img src="IMG/misiones.png" alt="universidad nacional de misiones" width="25" style="vertical-align: middle;" />
+    <strong>colaboración nacional Argentina programa– Universidad Nacional de misiones ()</strong> – Diplomatura de Extensión Universitaria.
+  </li>
+</ul>
 ---
 
 <h3>🏅 Formación profesional</h3>
