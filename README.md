@@ -207,9 +207,9 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
   </li>
 </ul>
 
-<li>
+  <li>
     <img src="IMG/misiones.png" alt="universidad nacional de misiones" width="25" style="vertical-align: middle;" />
-    <strong>colaboración nacional Argentina programa– Universidad Nacional de misiones ()</strong> – Diplomatura de Extensión Universitaria.
+    <strong>colaboración nacional Argentina programa– Universidad Nacional de misiones (UNam)</strong> – Diplomatura de Extensión Universitaria.
   </li>
 </ul>
 ---
