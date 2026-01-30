@@ -364,6 +364,11 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 ## 📊 Bases de datos
 ![Bases de datos](output/databases.png)
 <!-- AUTO-DATABASES -->
+## Bases de datos detectadas automáticamente
+
+- **MySQL**: 160 repos
+- **MongoDB**: 145 repos
+- **SQLite**: 39 repos
 
 ## Bases de datos detectadas automáticamente
 
