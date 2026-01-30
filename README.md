@@ -380,6 +380,11 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 ## 📊 Testing
 ![Testing](output/testing.png)
 <!-- AUTO-TESTING -->
+## Testing detectado automáticamente
+
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
 
 ## Testing detectado automáticamente
 
