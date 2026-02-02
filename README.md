@@ -518,6 +518,15 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 - **IntelliJ IDEA**: 2 repos
 - **NetBeans**: 2 repos
 - **CodeBlocks**: 1 repos
+## Herramientas detectadas automáticamente
+
+- **Vite**: 25 repos
+- **Maven**: 7 repos
+- **Visual Studio Code**: 5 repos
+- **Eclipse**: 3 repos
+- **IntelliJ IDEA**: 2 repos
+- **NetBeans**: 2 repos
+- **CodeBlocks**: 1 repos
 
 ## Herramientas detectadas automáticamente
 
