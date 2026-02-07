@@ -674,6 +674,11 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 - **Selenium**: 2 repos
 - **Postman**: 1 repos
 - **Insomnia**: 1 repos
+## Testing detectado automáticamente
+
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
 
 ## Testing detectado automáticamente
 
