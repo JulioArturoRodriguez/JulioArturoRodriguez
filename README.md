@@ -994,6 +994,11 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 <!-- AUTO-TESTING -->
 ## Testing detectado automáticamente
 
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
+## Testing detectado automáticamente
+
 - **Selenium**: 1 repos
 ## Testing detectado automáticamente
 
