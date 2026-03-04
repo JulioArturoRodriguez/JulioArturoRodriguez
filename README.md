@@ -594,6 +594,17 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 <!-- AUTO-FRAMEWORKS -->
 ## 🚀 Frameworks detectados (solo frameworks reales)
 
+- **Bootstrap**: 1500 apariciones (~40.4%)
+- **React**: 900 apariciones (~24.2%)
+- **Express**: 400 apariciones (~10.8%)
+- **Hibernate**: 200 apariciones (~5.4%)
+- **TensorFlow**: 171 apariciones (~4.6%)
+- **Keras**: 171 apariciones (~4.6%)
+- **Scikit-Learn**: 171 apariciones (~4.6%)
+- **Spring Boot**: 100 apariciones (~2.7%)
+- **React Router**: 100 apariciones (~2.7%)
+## 🚀 Frameworks detectados (solo frameworks reales)
+
 - **Bootstrap**: 1500 apariciones (~39.5%)
 - **React**: 900 apariciones (~23.7%)
 - **Express**: 400 apariciones (~10.5%)
