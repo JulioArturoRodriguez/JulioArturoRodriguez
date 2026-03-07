@@ -1005,6 +1005,15 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 <!-- AUTO-LIBRARIES -->
 ## 📚 Librerías detectadas
 
+- **JWT**: 600 apariciones (~33.3%)
+- **Mongoose**: 400 apariciones (~22.2%)
+- **Bcrypt**: 300 apariciones (~16.7%)
+- **Lombok**: 200 apariciones (~11.1%)
+- **NumPy**: 100 apariciones (~5.6%)
+- **Pandas**: 100 apariciones (~5.6%)
+- **Matplotlib**: 100 apariciones (~5.6%)
+## 📚 Librerías detectadas
+
 - **JWT**: 543 apariciones (~36.8%)
 - **Mongoose**: 343 apariciones (~23.2%)
 - **Bcrypt**: 262 apariciones (~17.7%)
