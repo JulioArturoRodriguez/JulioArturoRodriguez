@@ -1968,6 +1968,11 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 - **MySQL**: 160 repos
 - **MongoDB**: 145 repos
 - **SQLite**: 39 repos
+## Bases de datos detectadas automáticamente
+
+- **MySQL**: 160 repos
+- **MongoDB**: 145 repos
+- **SQLite**: 39 repos
 
 ## Bases de datos detectadas automáticamente
 
