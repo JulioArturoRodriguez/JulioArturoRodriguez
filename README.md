@@ -98,6 +98,20 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ### 🎨 Otros
 `UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
 
+###🎮 Desarrollo de Videojuegos
+'https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white'
+, 'https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white'
+, 'https://img.shields.io/badge/-Game_Design-FFDD00?style=for-the-badge&logo=unity&logoColor=black'
+, 'https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge'
+, 'https://img.shields.io/badge/-Desarrollo_3D-6A0DAD?style=for-the-badge'
+, 'https://img.shields.io/badge/-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white'
+
+'Diseño lúdico (MDA)' , 'Narrativa interactiva' , 'Level Design' ,
+'Sistemas de nodos y escenas' , 'Señales, Físicas y colisiones' ,
+'Animaciones (AnimationPlayer / AnimationTree)' ,
+'UI/HUD, Prototipado rápido' , 'Exportación multiplataforma'
+
+
 ---
 <h2>🎓 Formación y certificaciones</h2>
 <p>Cuento con formación respaldada por instituciones universitarias, programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional.</p>
@@ -198,6 +212,12 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
     <img src="IMG/unicen.png" alt="UNICEN" width="25" style="vertical-align: middle;" />
     <strong>Facultad de Artes – Universidad Nacional del Centro (UNICEN)</strong> – Diplomatura de Extensión Universitaria.
   </li>
+  
+  <li>
+   <strong> 🎮 Diplomatura de Extensión Universitaria en Videojuegos Lúdicos – UNQ (Programa Puentes – Lobería)
+Enfoque en diseño lúdico y desarrollo de videojuegos con Godot Engine.</strong>
+  </li>
+  
 </ul>
 
   <li>
@@ -344,16 +364,3 @@ Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecan
 - **IntelliJ IDEA**: 2 repos
 - **NetBeans**: 2 repos
 - **CodeBlocks**: 1 repos
-
-
-## Herramientas detectadas automáticamente
-
-- **Vite**: 25 repos
-- **Maven**: 7 repos
-- **Visual Studio Code**: 5 repos
-- **Eclipse**: 3 repos
-- **IntelliJ IDEA**: 2 repos
-- **NetBeans**: 2 repos
-- **CodeBlocks**: 1 repos
-
-.
