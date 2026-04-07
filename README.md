@@ -102,7 +102,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Godot](https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 ![Game Design](https://img.shields.io/badge/-Game_Design-FFDD00?style=for-the-badge&logo=unity&logoColor=black)
-![Desarrollo 2D](https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge)
+![Desarrollo 2D](https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge)  
 ![Desarrollo 3D](https://img.shields.io/badge/-Desarrollo_3D-6A0DAD?style=for-the-badge)
 ![Blender](https://img.shields.io/badge/-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
 ![Animación 3D](https://img.shields.io/badge/-Animación_3D-FF8800?style=for-the-badge)
