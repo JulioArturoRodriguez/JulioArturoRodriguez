@@ -169,11 +169,11 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
   </li>
   <li>
     <img src="IMG/cifpa-logo2022.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
-    <strong>CFP N.º 6</strong> – Especialización Profesional en <strong>Programador Administrador de Base de Datos (2026)</strong>.
+    <strong>UNQ</strong>Universidad Nacional de Quilmes   <strong> Diplomatura en Técnicas y Proyectos de Animación 3D (2026)</strong>.
   </li>
   <li>
     <img src="IMG/logogif.gif" alt="MEP 404" width="25" style="vertical-align: middle;" />
-    <strong>MEP 404 – Lomas de Zamora</strong> – Especialización Profesional en <strong>Desarrollo de Videojuegos (2026)</strong>.
+    <strong>Universidad Nacional de Quilmes – L</strong> – DIplomatura en <strong>Desarrollo de Videojuegos (2026)</strong>.
   </li>
 </ul>
 
