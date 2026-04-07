@@ -167,14 +167,7 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
     <img src="IMG/255120278_3038442806402658_2233808457185965660_n.jpg" alt="CFP 406" width="25" style="vertical-align: middle;" />
     <strong>CFP N.º 406 – La Matanza</strong> – Formación técnica e industrial.
   </li>
-  <li>
-    <img src="IMG/cifpa-logo2022.png" alt="CFP 6" width="25" style="vertical-align: middle;" />
-    <strong>UNQ</strong>Universidad Nacional de Quilmes   <strong> Diplomatura en Técnicas y Proyectos de Animación 3D (2026)</strong>.
-  </li>
-  <li>
-    <img src="IMG/logogif.gif" alt="MEP 404" width="25" style="vertical-align: middle;" />
-    <strong>Universidad Nacional de Quilmes – L</strong> – DIplomatura en <strong>Desarrollo de Videojuegos (2026)</strong>.
-  </li>
+  
 </ul>
 
 <h3>🌐 Educación no formal y programas lingüísticos</h3>
