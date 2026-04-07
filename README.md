@@ -63,7 +63,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 </a>
 
 <a href="https://netbeans.apache.org/" target="_blank">
-  <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white" alt="Apache NetBeans">
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white" alt="Apache NetBeans"  >
 </a>
 
 <a href="http://www.codeblocks.org/" target="_blank">
