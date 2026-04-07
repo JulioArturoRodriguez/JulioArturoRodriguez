@@ -99,17 +99,17 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 `UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
 
 ###🎮 Desarrollo de Videojuegos
-'https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white'
-, 'https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white'
-, 'https://img.shields.io/badge/-Game_Design-FFDD00?style=for-the-badge&logo=unity&logoColor=black'
-, 'https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge'
-, 'https://img.shields.io/badge/-Desarrollo_3D-6A0DAD?style=for-the-badge'
-, 'https://img.shields.io/badge/-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white'
+'https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white',
+'https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white',
+'https://img.shields.io/badge/-Game_Design-FFDD00?style=for-the-badge&logo=unity&logoColor=black',
+'https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge',
+'https://img.shields.io/badge/-Desarrollo_3D-6A0DAD?style=for-the-badge',
+'https://img.shields.io/badge/-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white'
 
-'Diseño lúdico (MDA)' , 'Narrativa interactiva' , 'Level Design' ,
-'Sistemas de nodos y escenas' , 'Señales, Físicas y colisiones' ,
-'Animaciones (AnimationPlayer / AnimationTree)' ,
-'UI/HUD, Prototipado rápido' , 'Exportación multiplataforma'
+'Diseño lúdico (MDA)', 'Narrativa interactiva', 'Level Design',
+'Sistemas de nodos y escenas', 'Señales, Físicas y colisiones',
+'Animaciones (AnimationPlayer / AnimationTree)',
+'UI/HUD, Prototipado rápido', 'Exportación multiplataforma'
 
 
 ---
