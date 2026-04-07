@@ -98,18 +98,38 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ### 🎨 Otros
 `UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
 
-### 🎮 Desarrollo de Videojuegos
+### 🎮 Desarrollo de Videojuegos y Animación 3D  
 ![Godot](https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 ![Game Design](https://img.shields.io/badge/-Game_Design-FFDD00?style=for-the-badge&logo=unity&logoColor=black)
 ![Desarrollo 2D](https://img.shields.io/badge/-Desarrollo_2D-00A8E8?style=for-the-badge)
 ![Desarrollo 3D](https://img.shields.io/badge/-Desarrollo_3D-6A0DAD?style=for-the-badge)
 ![Blender](https://img.shields.io/badge/-Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![Animación 3D](https://img.shields.io/badge/-Animación_3D-FF8800?style=for-the-badge)
+![VFX](https://img.shields.io/badge/-VFX-444444?style=for-the-badge)
+![Renderizado](https://img.shields.io/badge/-Renderizado-222222?style=for-the-badge)
 
-`Diseño lúdico (MDA)`, `Narrativa interactiva`, `Level Design`,
-`Sistemas de nodos y escenas`, `Señales`, `Físicas y colisiones`,
-`Animaciones (AnimationPlayer / AnimationTree)`,
-`UI/HUD`, `Prototipado rápido`, `Exportación multiplataforma`
+`Diseño lúdico (MDA)`, `Narrativa interactiva`, `Level Design`,  
+`Modelado 3D`, `Texturizado`, `Rigging`,  
+`Animación de personajes`, `Expresiones faciales`, `Locomoción`,  
+`Sistemas de nodos y escenas`, `Señales`, `Físicas y colisiones`,  
+`VFX (partículas, fuego, agua, humo)`,  
+`Iluminación`, `Composición`, `Renderizado`,  
+`Integración Blender → Godot`, `Exportación multiplataforma`,  
+`Storyboard`, `Animatic`, `Dirección de animación`,  
+`Producción de animación`, `Gestión de proyectos`,  
+`Pitch y desarrollo conceptual`, `Dirección artística`,  
+`Edición y postproducción`, `Actuación y dirección de voz`,  
+`Technical Artist`, `Automatización de flujos de trabajo`,  
+`Desarrollo de herramientas`, `Scripting en Python/C#`,  
+`Optimización de rendimiento`, `Profiling`,  
+`Unity`, `Unreal Engine`, `Renderizado en tiempo real`,  
+`Producción de assets 3D`, `Pipeline de animación`,  
+`Inteligencia Artificial aplicada a animación`,  
+`Aprendizaje automático`, `Redes neuronales`, `Algoritmos de IA`,  
+`Animación basada en datos`, `Procesamiento de imágenes y video`,  
+`Reconocimiento facial`, `Seguimiento de movimiento`,  
+`Motion Capture`, `Realidad Virtual (VR)`, `Realidad Aumentada (AR)`
 
 
 ---
