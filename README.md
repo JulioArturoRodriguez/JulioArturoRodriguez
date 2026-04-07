@@ -96,7 +96,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 
 ### 🎨 Otros
-`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
+`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`, `Reparacion de electrodomesticos`
 
 ### 🎮 Desarrollo de Videojuegos y Animación 3D  
 ![Godot](https://img.shields.io/badge/-Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
