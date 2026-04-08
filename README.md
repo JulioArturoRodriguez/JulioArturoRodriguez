@@ -94,8 +94,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 `Reconocimiento de imágenes`, `Procesamiento de imágenes`,  
 `Detección de patrones`, `Modelos convolucionales`,  
 `Optimización de modelos`, `Regularización`, `Validación cruzada` <br>
-`Pipeline de datos`, `Trabajo con datasets`, `Jupyter Notebook`,  
-`Programador Junior en Machine Learning`
+`Pipeline de datos`, `Trabajo con datasets`, `Jupyter Notebook`
 
 
 ### 🧪 Testing
