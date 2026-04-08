@@ -20,7 +20,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🚀 Frameworks y Librerías
+### 🚀 Frameworks y Librerías web
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/-React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/-Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
@@ -28,9 +28,6 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JWT](https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Bcrypt](https://img.shields.io/badge/-Bcrypt-563D7C?style=for-the-badge)
 ![Mongoose](https://img.shields.io/badge/-Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Spring Web](https://img.shields.io/badge/-Spring_Web-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/-Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/-Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) ![Lombok](https://img.shields.io/badge/-Lombok-CA4245?style=for-the-badge&logo=lombok&logoColor=white)
@@ -45,6 +42,42 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 ### 🧠 Desarrollo de software
 `Arquitectura MVC`, `Microservicios`, `RESTful APIs`, `CORS (Cross-Origin Resource Sharing)`, `Concurrencia`, `Paralelismo`, `Asincronía`, `Hilos`, `Patrones de diseño`, `Domain-Driven Design (DDD)`, `Arquitectura Hexagonal / Clean Architecture`, `Arquitectura en capas`, `Arquitectura de Dominio (Domain Layer Architecture)`, `Arquitectura de Capas Lógicas (Logical Layered Architecture)`
+
+### 🤖 Machine Learning e Inteligencia Artificial  
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Seaborn](https://img.shields.io/badge/-Seaborn-4C8CBF?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Bokeh](https://img.shields.io/badge/-Bokeh-FF7F0E?style=for-the-badge)
+![Zipfile](https://img.shields.io/badge/-Zipfile-000000?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/-Machine_Learning-102230?style=for-the-badge)
+![Deep Learning](https://img.shields.io/badge/-Deep_Learning-8A2BE2?style=for-the-badge)
+![AI](https://img.shields.io/badge/-Inteligencia_Artificial-0A66C2?style=for-the-badge)
+
+`Machine Learning (ML)`, `Inteligencia Artificial (IA)`, `Deep Learning`, `Redes neuronales`,  
+`CNN / DCNN`, `Aprendizaje supervisado`, `Aprendizaje no supervisado`,  
+`Clasificación`, `Regresión`, `Clustering`, `Reglas de asociación` <br>
+`Análisis exploratorio de datos (EDA)`, `Normalización`, `Preprocesamiento`,  
+`Matriz de confusión`, `Accuracy`, `Precision`, `Recall`, `Specificity`, `F1 Score` <br>
+`Clases desbalanceadas`, `Oversampling`, `Undersampling`, `SMOTE-Tomek`,  
+`Ensamble de modelos`, `Mapas de calor`, `Matriz de correlaciones` <br>
+`Visualización de datos`, `Interpretación de métricas`,  
+`TensorFlow`, `Keras`, `PyTorch`, `OpenCV`, `Scikit-learn` <br>
+`NumPy`, `Pandas`, `SciPy`, `Numba`, `Seaborn`, `Matplotlib`, `Bokeh` <br>
+`Reconocimiento de imágenes`, `Procesamiento de imágenes`,  
+`Detección de patrones`, `Modelos convolucionales`,  
+`Optimización de modelos`, `Regularización`, `Validación cruzada` <br>
+`Pipeline de datos`, `Trabajo con datasets`, `Jupyter Notebook`,  
+`Programador Junior en Machine Learning`
+
 
 ### 🧪 Testing
 ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
