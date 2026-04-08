@@ -43,6 +43,25 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ### 🧠 Desarrollo de software
 `Arquitectura MVC`, `Microservicios`, `RESTful APIs`, `CORS (Cross-Origin Resource Sharing)`, `Concurrencia`, `Paralelismo`, `Asincronía`, `Hilos`, `Patrones de diseño`, `Domain-Driven Design (DDD)`, `Arquitectura Hexagonal / Clean Architecture`, `Arquitectura en capas`, `Arquitectura de Dominio (Domain Layer Architecture)`, `Arquitectura de Capas Lógicas (Logical Layered Architecture)`
 
+### 📐 Lógica, Computabilidad y Circuitos Digitales  
+`Lógica proposicional`, `Semántica y sintaxis`, `Proposiciones atómicas`, `Proposiciones moleculares` <br>
+`Simbolización del lenguaje natural`, `Conectivas lógicas`, `Tablas de verdad`, `Tautologías` <br>
+`Contradicciones`, `Contingencias`, `Validez de argumentos`, `Argumentos deductivos e inductivos` <br>
+`Esquemas de argumentos`, `Reglas de inferencia`, `Reglas de sustitución`, `Manipulación lógica` <br>
+
+`Álgebra de Boole`, `Formas normales (CNF / DNF)`, `Simplificación booleana`, `Mapas de Karnaugh` <br>
+`Circuitos combinacionales`, `Circuitos secuenciales`, `Compuertas lógicas`, `Simplificación de circuitos` <br>
+`Multiplexores`, `Decodificadores`, `Biestables`, `Memorias`, `Microcontroladores`, `Microprocesadores` <br>
+
+`Lógica de predicados`, `Cuantificador existencial`, `Cuantificador universal`, `Simbolización formal` <br>
+`Variables y constantes`, `Propiedades y relaciones`, `Conjuntos por extensión`, `Conjuntos por comprensión` <br>
+`Interpretación`, `Satisfacción`, `Verdad`, `Corrección`, `Completitud`, `Modelos de primer orden` <br>
+
+`Algoritmos`, `Recursividad`, `Tesis Church–Turing`, `Computabilidad`, `Máquinas de Turing` <br>
+`Conjuntos numerables`, `Conjuntos no numerables`, `Decidibilidad`, `Computabilidad`, `Intratabilidad` <br>
+`Inexpresabilidad`, `Problemas decidibles`, `Problemas indecidibles`
+
+
 ### 🤖 Machine Learning e Inteligencia Artificial  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
