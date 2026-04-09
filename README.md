@@ -42,7 +42,18 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 
 ### 🧠 Desarrollo de software
-`Arquitectura MVC`, `Microservicios`, `RESTful APIs`, `CORS (Cross-Origin Resource Sharing)`, `Concurrencia`, `Paralelismo`, `Asincronía`, `Hilos`, `Patrones de diseño`, `Domain-Driven Design (DDD)`, `Arquitectura Hexagonal / Clean Architecture`, `Arquitectura en capas`, `Arquitectura de Dominio (Domain Layer Architecture)`, `Arquitectura de Capas Lógicas (Logical Layered Architecture)`
+`Arquitectura MVC`,`Microservicios`,`RESTful APIs`,`CORS (Cross-Origin Resource Sharing)`,`Concurrencia`,
+`Paralelismo`,`Asincronía`,`Hilos`,`Patrones de diseño`,`Domain-Driven Design (DDD)`,
+`Arquitectura Hexagonal / Clean Architecture`,`Arquitectura en capas`,`Arquitectura de Dominio (Domain Layer Architecture)`,
+`Arquitectura de Capas Lógicas (Logical Layered Architecture)`,`Arquitectura Monolítica`,`Repository Pattern`,`Ágil (Scrum, Kanban)`,
+
+`Programación Orientada a Objetos (POO)`,
+`Programación Imperativa`,
+`Programación Estructurada`,
+`Programación Modular`,
+`Programación Funcional`,
+`Programación Declarativa`
+
 
 ### 📐 Lógica, Computabilidad y Circuitos Digitales  
 `Lógica proposicional`, `Semántica y sintaxis`, `Proposiciones atómicas`, `Proposiciones moleculares` <br>
