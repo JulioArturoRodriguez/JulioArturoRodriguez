@@ -245,27 +245,7 @@ Actualmente desarrollo el <strong>Profesorado Universitario en Informática</str
 </ul>
 
 <h3>🏛️ Formación complementaria</h3>
-<ul>
-  <li>
-    <img src="IMG/descarga.png" alt="UNQ" width="25" style="vertical-align: middle;" />
-    <strong>Universidad Nacional de Quilmes (UNQ)</strong> – Diplomatura de Extensión Universitaria (2026).
-  </li>
 
-  <li>
-    <img src="IMG/loberia.png" alt="UNL" width="25" style="vertical-align: middle;" />
-    <strong>Universidad Nacional de Lobería</strong> – Diplomatura de Extensión Universitaria.
-  </li>
-
-  <li>
-    <img src="IMG/unicen.png" alt="UNICEN" width="25" style="vertical-align: middle;" />
-    <strong>Facultad de Artes – Universidad Nacional del Centro (UNICEN)</strong> – Diplomatura de Extensión Universitaria.
-  </li>
-  
-  <li>
-   <strong> 🎮 Diplomatura de Extensión Universitaria en Videojuegos Lúdicos – UNQ (Programa Puentes – Lobería)
-Enfoque en diseño lúdico y desarrollo de videojuegos con Godot Engine.</strong>
-  </li>
-  
 </ul>
 
   <li>
