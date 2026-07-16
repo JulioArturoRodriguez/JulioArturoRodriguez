@@ -168,7 +168,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 <ul>
   <li>
     <img src="IMG/uno.png" alt="UNO" width="25" style="vertical-align: middle;" />
-    <strong>Universidad Nacional del Oeste (UNO)</strong> – Profesorado Universitario en Informática (carrera en curso).
+    <strong>Universidad Nacional del Oeste (UNO)</strong> – Licenciatura en informatica (carrera en curso).
   </li>
 </ul>
 
