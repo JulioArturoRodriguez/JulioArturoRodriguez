@@ -174,7 +174,7 @@ Desarrollador de Software en formación, con orientación Full Stack y Backend, 
 </ul>
 
 <p>📚 <strong>Enfoque académico actual:</strong><br>
-Actualmente desarrollo el <strong>Profesorado Universitario en Informática</strong>, una formación con base matemática sólida, orientación tecnológica integral y una combinación equilibrada entre <strong>teoría avanzada</strong> y <strong>práctica aplicada</strong>, enfocada en el desarrollo, la enseñanza y la investigación en tecnologías informáticas contemporáneas.
+Actualmente desarrollo el <strong>Licenciatura en informatica</strong>, una formación con base matemática sólida, orientación tecnológica integral<strong>teoría avanzada</strong> y <strong>práctica aplicada</strong>, enfocada en el desarrollo y la investigación en tecnologías informática contemporáneas.
 </p>
 
 <h3>🏛️ Formación técnica superior</h3>
