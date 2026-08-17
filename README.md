@@ -65,6 +65,29 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 `Programación Funcional`,
 `Programación Declarativa`
 
+### 📐 Matemática y Fundamentos Computacionales
+
+`Teoría de conjuntos`
+`Conjuntos por extensión`
+`Conjuntos por comprensión`
+`Relaciones`
+`Funciones`
+`Operaciones entre conjuntos`
+`Producto cartesiano`
+`Cardinalidad`
+`Conjuntos numerables y no numerables`
+
+`Matrices`
+`Operaciones matriciales`
+`Suma y resta de matrices`
+`Multiplicación de matrices`
+`Matriz identidad`
+`Matriz transpuesta`
+`Determinantes`
+`Sistemas de ecuaciones lineales`
+`Vectores`
+`Espacios vectoriales`
+
 
 ### 📐 Lógica, Computabilidad y Circuitos Digitales  
 `Lógica proposicional`, `Semántica y sintaxis`, `Proposiciones atómicas`, `Proposiciones moleculares` <br>
