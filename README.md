@@ -20,6 +20,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![GDScript](https://img.shields.io/badge/-GDScript-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
 ### 🚀 Frameworks y Librerías web
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
