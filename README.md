@@ -174,9 +174,8 @@
 </ul>
 
 <p>📚 <strong>Enfoque académico actual:</strong><br>
-Actualmente curso una <strong>Licenciatura en informatica</strong>, una formación con base matemática sólida, orientación tecnológica integral<strong>teoría avanzada</strong> y <strong>práctica aplicada</strong>, enfocada en el desarrollo y la investigación en tecnologías informática contemporáneas.
+Actualmente curso una <strong>Licenciatura en Informática</strong>, una formación con base matemática sólida y orientación tecnológica integral, combinando <strong>teoría avanzada</strong> y <strong>práctica aplicada</strong>, con enfoque en el desarrollo y la investigación en tecnologías informáticas contemporáneas.
 </p>
-
 <h3>🏛️ Formación técnica superior</h3>
 <ul>
   <li>
