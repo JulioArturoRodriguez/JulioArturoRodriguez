@@ -169,8 +169,8 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![Aiven](https://img.shields.io/badge/-Aiven-FF0000?style=for-the-badge&logo=aiven&logoColor=white)
 
 
-### 🎨 Otros
-`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`, `Reparacion de PC`, `Instalacion y Soporte de Sistemas Insformaticos`, `Comercio Electronico`
+### 🎨 OtrosSoporte Técnico
+`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Técnico', 'Reparación de PC','Instalación y Soporte de Sistemas Informáticos', 'Comercio Electrónico'
 
 <h2>🎓 Formación y certificaciones</h2>
 <p>Cuento con formación respaldada por instituciones universitarias, programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional.</p>
