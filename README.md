@@ -159,7 +159,7 @@ Mi perfil es multidisciplinario con orientación full stack MERN, con conocimien
 
 
 ### 🎨 Otros
-`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`
+`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux`, `Windows`, `Soporte Tecnico`, `Reparacion de PC`, `Instalacion y Soporte de Sistemas Insformaticos`, `Comercio Electronico`
 
 <h2>🎓 Formación y certificaciones</h2>
 <p>Cuento con formación respaldada por instituciones universitarias, programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional.</p>
