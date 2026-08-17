@@ -1,7 +1,7 @@
 <h1 align="center"><b> Hola Soy Julio Arturo Rodríguez </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 Gracias por tomarte el tiempo de leer esto y darme la oportunidad de presentarme.  
-Mi perfil es multidisciplinario con orientación full stack MERN, con conocimientos en diversas áreas de IT: desarrollo web, testing, soporte técnico, hardware, diseño UX/UI, administración con informática,  análisis funcional, base de datos, aplicaciones de escritorio.
+Desarrollador de Software en formación, con orientación Full Stack y Backend, experiencia práctica en Java/Spring Boot, JavaScript/Node.js, bases de datos y Machine Learning/IA Y Aplicaciones de Escritorio, testing.
 
 ---
 
