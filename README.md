@@ -11,7 +11,7 @@ Gracias por tomarte el tiempo de leer esto y conocer mi perfil.
 
  Actualmente curso una **Licenciatura en Informática**, mientras continúo fortaleciendo mis conocimientos mediante proyectos personales, académicos y formación complementaria.
 
- Me considero una persona **curiosa, autodidacta y orientada a la resolución de problemas**, con interés en comprender no solo cómo funciona una tecnología, sino también los fundamentos que existen detrás de ella.
+Soy una persona curiosa, con ganas de aprender y seguir mejorando. Me gusta resolver problemas, aprender nuevas tecnologías y entender cómo funcionan las cosas que voy desarrollando.
 ---
 
 <a target="_blank" align="center">
