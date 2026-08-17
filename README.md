@@ -11,7 +11,7 @@ Gracias por tomarte el tiempo de leer esto y conocer mi perfil.
 
  Actualmente curso una **Licenciatura en Informática**, mientras continúo fortaleciendo mis conocimientos mediante proyectos personales, académicos y formación complementaria.
 
-Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problemas, aprender cosas nuevas y seguir mejorando**.
+Soy una persona **curiosa y con ganas de aprender**. Me gusta aprender cosas nuevas y seguir mejorando día a día.
 ---
 
 <a target="_blank" align="center">
