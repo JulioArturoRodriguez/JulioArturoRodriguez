@@ -267,7 +267,7 @@ Actualmente curso una <strong>Licenciatura en Informática</strong>, una formaci
 
 ## 🎯 Enfoque actual y objetivos
 
-Me inclino más por el desarrollo **web** y **Movil**, donde puedo aplicar mis conocimientos técnicos y creativos.  
+Me inclino más por el desarrollo **web** y **movil**, donde puedo aplicar mis conocimientos técnicos y creativos.  
 Sin embargo, me gusta explorar distintas áreas del mundo IT. Actualmente, tengo interés en **aprender sobre ciberseguridad** para mejorar mis buenas prácticas de desarrollo, fortalecer mi código y tener en cuenta aspectos críticos de protección de datos y sistemas.
 
 Estoy cursando una **carrera de grado**, que planeo finalizar entre **2029 y 2030**.  
