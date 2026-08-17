@@ -156,7 +156,7 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![Spring Initializr](https://img.shields.io/badge/-Spring_Initializr-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Maven](https://img.shields.io/badge/-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
+![npm](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 
 
