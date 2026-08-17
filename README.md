@@ -3,15 +3,15 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
 
-> Gracias por tomarte el tiempo de leer esto y conocer mi perfil.
->
-> **Soy un Desarrollador de Software en formación**, con orientación **Full Stack y Backend**, apasionado por la tecnología, el desarrollo de soluciones y el aprendizaje continuo.
->
-> Mi formación y experiencia práctica abarcan proyectos con **Java/Spring Boot, JavaScript/Node.js, bases de datos, Machine Learning/IA, desarrollo web, aplicaciones de escritorio y testing**.
->
-> Actualmente curso una **Licenciatura en Informática**, mientras continúo fortaleciendo mis conocimientos mediante proyectos personales, académicos y formación complementaria.
->
-> Me considero una persona **curiosa, autodidacta y orientada a la resolución de problemas**, con interés en comprender no solo cómo funciona una tecnología, sino también los fundamentos que existen detrás de ella.
+Gracias por tomarte el tiempo de leer esto y conocer mi perfil.
+
+**Soy un Desarrollador de Software en formación**, con orientación **Full Stack y Backend**, apasionado por la tecnología, el desarrollo de soluciones y el aprendizaje continuo.
+
+ Mi formación y experiencia práctica abarcan proyectos con **Java/Spring Boot, JavaScript/Node.js, bases de datos, Machine Learning/IA, desarrollo web, aplicaciones de escritorio y testing**.
+
+ Actualmente curso una **Licenciatura en Informática**, mientras continúo fortaleciendo mis conocimientos mediante proyectos personales, académicos y formación complementaria.
+
+ Me considero una persona **curiosa, autodidacta y orientada a la resolución de problemas**, con interés en comprender no solo cómo funciona una tecnología, sino también los fundamentos que existen detrás de ella.
 ---
 
 <a target="_blank" align="center">
