@@ -1,7 +1,8 @@
 <h1 align="center"><b> Hola Soy Julio Arturo Rodríguez </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
-Gracias por tomarte el tiempo de leer esto y darme la oportunidad de presentarme.  
-Desarrollador de Software en formación, con orientación Full Stack y Backend. Formación y práctica en proyectos con Java/Spring Boot, JavaScript/Node.js, bases de datos, Machine Learning/IA, aplicaciones de escritorio y testing
+> Gracias por tomarte el tiempo de leer esto y conocer mi perfil.
+> **Soy un Desarrollador de Software en formación**, con orientación **Full Stack y Backend**, con formación y práctica en proyectos con **Java/Spring Boot, JavaScript/Node.js, bases de datos, Machine Learning/IA, aplicaciones de escritorio y testing**.
+
 ---
 
 <a target="_blank" align="center">
