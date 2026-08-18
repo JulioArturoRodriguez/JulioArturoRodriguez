@@ -157,7 +157,9 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![Maven](https://img.shields.io/badge/-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![npm](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-
+![pip](https://img.shields.io/badge/-pip-3775A9?style=for-the-badge&logo=pypi&logoColor=white) 
+![Pipenv](https://img.shields.io/badge/-Pipenv-001F3F?style=for-the-badge&logo=python&logoColor=white) 
+![venv](https://img.shields.io/badge/-venv-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 
 ### ☁️ Cloud Hosting
