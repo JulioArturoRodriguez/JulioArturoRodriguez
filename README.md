@@ -151,6 +151,15 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
   <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
 </a>
 
+<a href="https://jupyter.org/" target="_blank">
+  <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
+</a>
+
+<a href="https://colab.research.google.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab">
+</a>
+
+
 
 ### 🛠️ Herramientas de Construcción y Generación de Proyectos
 ![Spring Initializr](https://img.shields.io/badge/-Spring_Initializr-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -160,7 +169,6 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![pip](https://img.shields.io/badge/-pip-3775A9?style=for-the-badge&logo=pypi&logoColor=white) 
 ![Pipenv](https://img.shields.io/badge/-Pipenv-001F3F?style=for-the-badge&logo=python&logoColor=white) 
 ![venv](https://img.shields.io/badge/-venv-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 
 ### ☁️ Cloud Hosting
