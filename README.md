@@ -283,7 +283,7 @@ Sin embargo, me gusta explorar distintas áreas del mundo IT. Actualmente, tengo
 
 Estoy cursando una **carrera de grado**, que planeo finalizar entre **2029 y 2030**.  
 Mi formación comenzó como un hobby, pero se convirtió en una pasión con visión a largo plazo. Me interesa seguir desarrollando habilidades tanto técnicas como funcionales. 
-Tambien ultima mente le estoy agarrando el gusto a la electronica y electromecanica. vere en 2027...
+Tambien ultimamente le estoy agarrando el gusto a la electronica y electromecanica. vere en 2027...
 
 ---
 
