@@ -181,7 +181,7 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 
 
 ### 🎨 Otros
-`UX/UI`, `Marketing digital`, `Componentes de hardware`, `LinuxSoporte Técnico`, `Windows`, `Soporte Técnico`, `Reparación de PC`, `Instalación y Soporte de Sistemas Informáticos`, `Comercio Electrónico`
+`UX/UI`, `Marketing digital`, `Componentes de hardware`, `Linux `, `Soporte Técnico`, `Windows`, `Soporte Técnico`, `Reparación de PC`, `Instalación y Soporte de Sistemas Informáticos`, `Comercio Electrónico`
 
 <h2>🎓 Formación y certificaciones</h2>
 <p>Cuento con formación respaldada por instituciones universitarias, programas nacionales y centros de formación profesional, todos con certificación oficial de validez nacional.</p>
