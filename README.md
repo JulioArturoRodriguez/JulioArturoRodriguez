@@ -160,6 +160,7 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![pip](https://img.shields.io/badge/-pip-3775A9?style=for-the-badge&logo=pypi&logoColor=white) 
 ![Pipenv](https://img.shields.io/badge/-Pipenv-001F3F?style=for-the-badge&logo=python&logoColor=white) 
 ![venv](https://img.shields.io/badge/-venv-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 
 ### ☁️ Cloud Hosting
