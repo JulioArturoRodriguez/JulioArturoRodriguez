@@ -633,6 +633,14 @@ Tambien ultimamente le estoy agarrando el gusto a la electronica y electromecani
 - **Java**: 9.73%
 - **HTML**: 1.63%
 - **Dockerfile**: 0.12%
+## 📊 Lenguajes más usados (actualizado automáticamente)
+
+- **JavaScript**: 63.3%
+- **CSS**: 14.25%
+- **Python**: 10.96%
+- **Java**: 9.73%
+- **HTML**: 1.63%
+- **Dockerfile**: 0.12%
 
 ## 📊 Frameworks
 ![Frameworks](output/frameworks.png)
