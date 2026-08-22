@@ -347,6 +347,15 @@ Tambien ultimamente le estoy agarrando el gusto a la electronica y electromecani
 <!-- AUTO-LANGUAGES -->
 ## 📊 Lenguajes más usados (actualizado automáticamente)
 
+- **JavaScript**: 59.85%
+- **CSS**: 13.48%
+- **Python**: 10.36%
+- **Java**: 9.2%
+- **Jupyter Notebook**: 5.45%
+- **HTML**: 1.54%
+- **Dockerfile**: 0.12%
+## 📊 Lenguajes más usados (actualizado automáticamente)
+
 - **JavaScript**: 63.3%
 - **CSS**: 14.25%
 - **Python**: 10.96%

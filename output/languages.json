@@ -1,8 +1,9 @@
 {
-    "JavaScript": 63.3,
-    "CSS": 14.25,
-    "Python": 10.96,
-    "Java": 9.73,
-    "HTML": 1.63,
+    "JavaScript": 59.85,
+    "CSS": 13.48,
+    "Python": 10.36,
+    "Java": 9.2,
+    "Jupyter Notebook": 5.45,
+    "HTML": 1.54,
     "Dockerfile": 0.12
 }
