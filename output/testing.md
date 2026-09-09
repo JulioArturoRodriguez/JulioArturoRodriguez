@@ -1,3 +1,5 @@
 ## Testing detectado automáticamente
 
-- **Selenium**: 1 repos
+- **Selenium**: 2 repos
+- **Postman**: 1 repos
+- **Insomnia**: 1 repos
