@@ -272,6 +272,10 @@ Actualmente curso una <strong>Licenciatura en Informática</strong>, una formaci
   <li>
     <img src="IMG/descarga (2).png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
   </li>
+<li>
+  <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="ETH Kipu" width="25" style="vertical-align: middle;" />
+  <strong>ETH Kipu – Ethereum Developer Pack (Nivel 1)</strong> – Smart Contracts con Solidity, EVM, Wallets y DeFi.
+</li>
   <li>
     <img src="IMG/descarga (1).png" alt="UTN" width="25" style="vertical-align: middle;"/> <strong>UTN – Universidad Tecnológica Nacional</strong>
   </li>
