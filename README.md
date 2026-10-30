@@ -273,7 +273,7 @@ Actualmente curso una <strong>Licenciatura en Informática</strong>, una formaci
     <img src="IMG/descarga (2).png" alt="Talento Tech" width="25" style="vertical-align: middle;"/> <strong>Talento Tech</strong>
   </li>
 <li>
-  <img src="https://raw.githubusercontent.com/ETH-KIPU/ethereum-developer-pack/main/.gitbook/assets/EDP.png" alt="ETH Kipu" width="25" style="vertical-align: middle;" />
+  <img src="https://avatars.githubusercontent.com/u/139831408?v=4" alt="ETH Kipu" width="25" style="vertical-align: middle;" />
   <strong>ETH Kipu – Ethereum Developer Pack (Nivel 1)</strong> – Blockchain, Ethereum, Solidity y DeFi.
 </li>
   <li>
