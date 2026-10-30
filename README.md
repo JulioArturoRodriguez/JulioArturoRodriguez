@@ -126,6 +126,65 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![Insomnia](https://img.shields.io/badge/-Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white)
 
 
+### ⛓️ Blockchain, Ethereum & Web3
+![Solidity](https://img.shields.io/badge/-Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/-Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Bitcoin](https://img.shields.io/badge/-Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white)
+![Web3](https://img.shields.io/badge/-Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![MetaMask](https://img.shields.io/badge/-MetaMask-E2761B?style=for-the-badge&logo=metamask&logoColor=white)
+![Etherscan](https://img.shields.io/badge/-Etherscan-21325B?style=for-the-badge&logo=etherscan&logoColor=white)
+
+`Web3`, `Web2 vs Web3`, `Trust → Verify`, `Propiedad digital`, `Descentralización`,
+`Blockchain`, `DLT`, `Doble gasto`, `Inmutabilidad`, `Verificabilidad pública`, `Resistencia a la censura`,
+`Trilema Blockchain (Descentralización / Seguridad / Escalabilidad)`,
+`Bitcoin (Oro digital, 21M, Script no Turing-completo)`, `Ethereum (Computadora mundial)`,
+`Smart Contracts (Determinismo, Transparencia, Autocustodia)`, `DApps`, `DeFi`, `NFTs`, `Tokenización`,
+`Identidad descentralizada`, `Wallets como identidad soberana`, `EIPs`, `The Merge (PoW → PoS)`, `Gobernanza`
+
+### ⚙️ EVM, Nodos, Consenso y Red P2P
+![EVM](https://img.shields.io/badge/-EVM-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
+![PoW](https://img.shields.io/badge/-PoW-F7931A?style=for-the-badge)
+![PoS](https://img.shields.io/badge/-PoS-627EEA?style=for-the-badge)
+
+`EVM (Ethereum Virtual Machine)`, `Máquina de estados`, `Ejecución determinista`, `Bytecode`,
+`Full Nodes`, `Light Nodes`, `Validadores`, `Red P2P`, `Proof of Work (Minería)`, `Proof of Stake (Staking)`,
+`Bloques (transacciones + parent hash + metadatos)`, `SHA-256`, `Efecto avalancha`, `Árboles de Merkle`,
+`Mempool`, `Exploradores (Etherscan, Mempool.space)`, `Rollups (Optimistic / ZK)`, `Layer 2 (Arbitrum, Optimism, Polygon)`, `Staking`
+
+### 🔐 Criptografía, Wallets, Transacciones y Gas
+![Cryptography](https://img.shields.io/badge/-Cryptography-000000?style=for-the-badge)
+![Gas](https://img.shields.io/badge/-Gas-627EEA?style=for-the-badge)
+
+`Criptografía de clave pública`, `ECDSA (secp256k1)`, `Clave privada / pública`, `Direcciones (20 bytes)`, `Seed Phrase (BIP-39)`, `Autocustodia`,
+`Firma de transacciones y mensajes`, `Estructura tx (nonce, gasPrice, gasLimit, to, value, data)`,
+`Gas`, `EIP-1559 (baseFee + priorityFee)`, `x*y=k`, `Confirmaciones`, `Reversibilidad`,
+`Seguridad operativa`, `Phishing`, `Hardware wallets`, `Contratos auditados`, `Verificación en exploradores`
+
+### 📈 DeFi, DEX, Bridges e Interoperabilidad
+![Uniswap](https://img.shields.io/badge/-Uniswap-FF007A?style=for-the-badge&logo=uniswap&logoColor=white)
+![DeFi](https://img.shields.io/badge/-DeFi-2F80ED?style=for-the-badge)
+
+`DeFi`, `CEX vs DEX`, `Peer-to-contract`, `AMM (x*y=k)`, `Pools de liquidez`, `Swap`, `Uniswap`,
+`Multichain`, `Interoperabilidad`, `Bridges (lock-and-mint)`,
+`Riesgos: Ronin ($600M), Wormhole ($320M), Nomad ($190M)`, `Reentrancia`, `Manipulación de oráculos`, `Flash loans`,
+`Gestión de permisos (approve)`, `rekt.news`
+
+### 📝 Desarrollo Smart Contracts con Solidity
+![Remix](https://img.shields.io/badge/-Remix-5096D5?style=for-the-badge&logo=remix&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/-OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
+
+`Solidity (desde 2014, Gavin Wood)`, `Tipado estático`, `Orientado a contratos`, `Compilación a Bytecode`,
+`Remix IDE`, `SPDX (MIT)`, `pragma solidity ^0.8.20`, `contract`, `constructor`,
+`Variables de estado vs locales`, `storage / memory / calldata`, `Optimización de gas`,
+`Funciones view / pure`, `Visibilidad (public, private, external, internal)`,
+`Tipos: uint8-uint256, int, address payable, bool, string, bytes / bytes32`, `keccak256`,
+`Structs`, `Arrays dinámicos (push)`, `Mappings`, `Nested mappings (allowances)`, `msg.sender`,
+`require / revert / assert`, `Atomicidad y Rollback`, `Owner pattern`, `Modifiers (onlyOwner)`,
+`Events / emit`, `Logs`, `indexed topics (max 3)`, `Interfaces`, `Composabilidad`, `ABI`, `Function selector (4 bytes)`,
+`call / staticcall / delegatecall`, `Proxy actualizable`,
+`ERC-20 (fungible, _balances, totalSupply, transfer, approve, transferFrom, Transfer event, name / symbol / decimals 18, approval race)`
+
+
 <h3>🛠️ Herramientas</h3>
 
 <a href="https://visualstudio.microsoft.com/" target="_blank">
