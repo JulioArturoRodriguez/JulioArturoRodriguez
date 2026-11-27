@@ -45,6 +45,13 @@ Soy una persona **curiosa y con ganas de aprender**. Me gusta **resolver problem
 ![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Spring Web](https://img.shields.io/badge/-Spring_Web-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Spring Security](https://img.shields.io/badge/-Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) ![Spring Data JPA](https://img.shields.io/badge/-Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Hibernate](https://img.shields.io/badge/-Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) ![Lombok](https://img.shields.io/badge/-Lombok-CA4245?style=for-the-badge&logo=lombok&logoColor=white)
 
 
+### 💻 Tecnologías de Escritorio y GUI
+![Java Swing](https://img.shields.io/badge/-Java_Swing-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java AWT](https://img.shields.io/badge/-Java_AWT-007396?style=for-the-badge&logo=java&logoColor=white)
+
+`Java Swing GUI Builder (Matisse)`, `Aplicaciones de Escritorio`, `Event Handling (Listeners)`, `Componentes UI`
+
+
 ### 🗄️ Bases de datos  
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL Server](https://img.shields.io/badge/-MySQL%20Server-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
